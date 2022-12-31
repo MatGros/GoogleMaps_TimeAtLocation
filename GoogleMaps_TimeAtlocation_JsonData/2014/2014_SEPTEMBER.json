@@ -1,0 +1,3378 @@
+{
+  "timelineObjects": [{
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 437879282,
+        "longitudeE7": 43913879,
+        "placeId": "ChIJb2hLNqkstBIRUAfmDyGIBxM",
+        "address": "5 Rue des Genêts, 30132 Caissargues, Gard, Languedoc-Roussillon, France",
+        "semanticType": "TYPE_HOME",
+        "locationConfidence": 97.85526
+      },
+      "duration": {
+        "startTimestamp": "2014-09-01T05:03:34.278Z",
+        "endTimestamp": "2014-09-01T05:22:13.272Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 437879321,
+      "centerLngE7": 43914253,
+      "visitConfidence": 78,
+      "otherCandidateLocations": [{
+        "latitudeE7": 437878011,
+        "longitudeE7": 43914602,
+        "placeId": "ChIJeQkmS6kstBIR3cJ230hM51w",
+        "address": "5 Rue des Genêts, 30132 Caissargues, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.7986161
+      }, {
+        "latitudeE7": 437878744,
+        "longitudeE7": 43915217,
+        "placeId": "ChIJlRpfS6kstBIRGjySPrLW7y0",
+        "address": "7 Rue des Genêts, 30132 Caissargues, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.6921011
+      }, {
+        "latitudeE7": 437875993,
+        "longitudeE7": 43913516,
+        "placeId": "ChIJk18WSakstBIRV13b-8R_bUw",
+        "address": "23 Rue des Genêts, 30132 Caissargues, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.3660125
+      }, {
+        "latitudeE7": 437881060,
+        "longitudeE7": 43907732,
+        "placeId": "ChIJizt0zK4stBIR6UZt-I7B6_U",
+        "address": "25 Rue de la Ciboulette, 30132 Caissargues, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.25015604
+      }, {
+        "latitudeE7": 437872806,
+        "longitudeE7": 43915255,
+        "placeId": "ChIJY31jRqkstBIRoCprP3nwJGg",
+        "name": "Magan Jean-Francois",
+        "locationConfidence": 0.0062688407
+      }, {
+        "latitudeE7": 437901266,
+        "longitudeE7": 43879419,
+        "placeId": "ChIJPxhqN6kstBIRknOaErRE_4E",
+        "address": "Av. Folco de Baroncelli, 30132 Caissargues, France",
+        "name": "Lacroix Dominique",
+        "locationConfidence": 0.004398748
+      }, {
+        "latitudeE7": 437699680,
+        "longitudeE7": 44267560,
+        "placeId": "ChIJVyJTSqkstBIRZPc5XX3OX4s",
+        "address": "19 Grand Rue 1er étage, 30128 Garons, France",
+        "name": "Durand Paysage",
+        "locationConfidence": 0.0029367905
+      }, {
+        "latitudeE7": 438078090,
+        "longitudeE7": 43716705,
+        "placeId": "ChIJYX_ZLKkstBIRyAJkTEVfzKk",
+        "address": "2350 Rte de Saint-Gilles, 30000 Nîmes, France",
+        "name": "Porte Electricité",
+        "locationConfidence": 0.0025843943
+      }, {
+        "latitudeE7": 437879143,
+        "longitudeE7": 43850407,
+        "placeId": "ChIJGeVJeaYstBIRAQyyLa3Qs74",
+        "address": "4 Rue des Vignobles, 30132 Caissargues, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.0025350908
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 92,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 437879282,
+        "longitudeE7": 43913879,
+        "placeId": "ChIJb2hLNqkstBIRUAfmDyGIBxM",
+        "address": "5 Rue des Genêts, 30132 Caissargues, Gard, Languedoc-Roussillon, France",
+        "semanticType": "TYPE_HOME",
+        "locationConfidence": 97.85526
+      },
+      "endLocation": {
+        "latitudeE7": 436417139,
+        "longitudeE7": 47954548,
+        "placeId": "ChIJ2zEO5MULthIRpkDEIKVnyqE",
+        "address": "11 Avenue Galilée, 13310 Saint-Martin-de-Crau, France",
+        "semanticType": "TYPE_WORK",
+        "locationConfidence": 99.01405
+      },
+      "duration": {
+        "startTimestamp": "2014-09-01T05:22:13.272Z",
+        "endTimestamp": "2014-09-01T05:48:50.881Z"
+      },
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 437876968,
+          "lngE7": 43916783
+        }, {
+          "latE7": 436419181,
+          "lngE7": 47954511
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 41611.72810504763,
+        "travelMode": "DRIVE",
+        "confidence": 1.0
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 436417139,
+        "longitudeE7": 47954548,
+        "placeId": "ChIJ2zEO5MULthIRpkDEIKVnyqE",
+        "address": "11 Avenue Galilée, 13310 Saint-Martin-de-Crau, France",
+        "semanticType": "TYPE_WORK",
+        "locationConfidence": 99.01405
+      },
+      "duration": {
+        "startTimestamp": "2014-09-01T05:48:50.881Z",
+        "endTimestamp": "2014-09-01T10:01:57.514Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 436415232,
+      "centerLngE7": 47953638,
+      "visitConfidence": 64,
+      "otherCandidateLocations": [{
+        "latitudeE7": 436413337,
+        "longitudeE7": 47956304,
+        "placeId": "ChIJ5fU-3cULthIRQxE8XtkYvXg",
+        "address": "8 Rue Albert Einstein, 13310 Saint-Martin-de-Crau, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.81976783
+      }, {
+        "latitudeE7": 436417170,
+        "longitudeE7": 47956890,
+        "placeId": "ChIJG_wA5sULthIRNtkHzkmgb30",
+        "address": "Z.A du salat, 7 Av. Galilée, 13310 Saint-Martin-de-Crau, France",
+        "name": "Modélisme Center",
+        "locationConfidence": 0.03643053
+      }, {
+        "latitudeE7": 436400294,
+        "longitudeE7": 47963781,
+        "placeId": "ChIJXcI2scULthIRbRO4NdFYp5Y",
+        "address": "ZA du Salat, 13310 Saint-Martin-de-Crau, France",
+        "name": "Super U St Martin de Crau",
+        "locationConfidence": 0.028148599
+      }, {
+        "latitudeE7": 436413167,
+        "longitudeE7": 47954676,
+        "placeId": "ChIJ_Qe33cULthIRPWJOSlRsJOI",
+        "address": "Za Du Salat, 8 Rue Albert Einstein, 13310 Saint-Martin-de-Crau, France",
+        "name": "PEINTURE LACOMA",
+        "locationConfidence": 0.011399375
+      }, {
+        "latitudeE7": 436416380,
+        "longitudeE7": 47969419,
+        "placeId": "ChIJnW9Pl8ULthIRuHrGsDxsG3U",
+        "locationConfidence": 0.010996003
+      }, {
+        "latitudeE7": 436413390,
+        "longitudeE7": 47960900,
+        "placeId": "ChIJD0z53t0LthIRJ9oLMtIsZ84",
+        "address": "6 Rue Albert Einstein, 13310 Saint-Martin-de-Crau, France",
+        "name": "Léon Entreprise",
+        "locationConfidence": 0.007893922
+      }, {
+        "latitudeE7": 436422390,
+        "longitudeE7": 47938900,
+        "placeId": "ChIJWe0MoNgLthIRFFSTxClr_Nk",
+        "address": "Z.A du Salat, 1 Rue Copernic, 13310 Saint-Martin-de-Crau, France",
+        "name": "Douliere Hay France SAS",
+        "locationConfidence": 0.006149122
+      }, {
+        "latitudeE7": 436413470,
+        "longitudeE7": 47960040,
+        "placeId": "ChIJOxDf3MULthIRTG1oO7SsATs",
+        "name": "RIDER BIKE - KIDS RIDER BIKE",
+        "locationConfidence": 0.0059469733
+      }, {
+        "latitudeE7": 436425970,
+        "longitudeE7": 47963470,
+        "placeId": "ChIJbfz_X88LthIRmIMr5I418rs",
+        "address": "Z.a. Du Salat II 11 Rue Copernic, 13310 Saint-Martin-de-Crau, France",
+        "name": "P2G ECONOMISTE",
+        "locationConfidence": 0.0043888222
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 92,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 436417139,
+        "longitudeE7": 47954548,
+        "placeId": "ChIJ2zEO5MULthIRpkDEIKVnyqE",
+        "address": "11 Avenue Galilée, 13310 Saint-Martin-de-Crau, France",
+        "semanticType": "TYPE_WORK",
+        "locationConfidence": 99.01405
+      },
+      "endLocation": {
+        "latitudeE7": 436337223,
+        "longitudeE7": 48009450,
+        "placeId": "ChIJJxAPaxgLthIRF7T_Ps4Wqyc",
+        "address": "ZA DU CABRAU, 13310 Saint-Martin-de-Crau, France",
+        "name": "Intermarche",
+        "locationConfidence": 82.39762,
+        "isCurrentLocation": true
+      },
+      "duration": {
+        "startTimestamp": "2014-09-01T10:01:57.514Z",
+        "endTimestamp": "2014-09-01T10:08:10.967Z"
+      },
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 436419067,
+          "lngE7": 47955064
+        }, {
+          "latE7": 436339454,
+          "lngE7": 48008193
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 1235.150399085409,
+        "travelMode": "DRIVE",
+        "confidence": 0.9844007233857055
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 436337223,
+        "longitudeE7": 48009450,
+        "placeId": "ChIJJxAPaxgLthIRF7T_Ps4Wqyc",
+        "address": "ZA DU CABRAU, 13310 Saint-Martin-de-Crau, France",
+        "name": "Intermarche",
+        "locationConfidence": 82.39762,
+        "isCurrentLocation": true
+      },
+      "duration": {
+        "startTimestamp": "2014-09-01T10:08:10.967Z",
+        "endTimestamp": "2014-09-01T10:20:05.528Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 436338658,
+      "centerLngE7": 48013500,
+      "visitConfidence": 75,
+      "otherCandidateLocations": [{
+        "latitudeE7": 436342174,
+        "longitudeE7": 48021507,
+        "placeId": "ChIJQRg4P90LthIR8Ehdb6_EqOM",
+        "address": "18 Rue de Copenhague, 13127 Vitrolles, France",
+        "name": "I.n.m.s.",
+        "locationConfidence": 10.916442,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 436314974,
+        "longitudeE7": 48075670,
+        "placeId": "ChIJ7yIVnt0LthIR0clx2mhaGyE",
+        "address": "14 Rue des Artisans, 13310 Saint-Martin-de-Crau, France",
+        "name": "Chausson Matériaux St-Martin de Crau",
+        "locationConfidence": 2.0793934
+      }, {
+        "latitudeE7": 436417139,
+        "longitudeE7": 47954548,
+        "placeId": "ChIJ2zEO5MULthIRpkDEIKVnyqE",
+        "address": "11 Av. Galilée, 13310 Saint-Martin-de-Crau, France",
+        "semanticType": "TYPE_WORK",
+        "locationConfidence": 1.9607624
+      }, {
+        "latitudeE7": 436333073,
+        "longitudeE7": 48025347,
+        "placeId": "ChIJbXBe890LthIR44d-iFbSVwA",
+        "address": "11 Rue de la Transhumance, 13310 Saint-Martin-de-Crau, France",
+        "name": "Hotel Residence La Transhumance",
+        "locationConfidence": 1.170991
+      }, {
+        "latitudeE7": 436351371,
+        "longitudeE7": 48059040,
+        "placeId": "ChIJz8I1tt0LthIRYM6RlVY6nls",
+        "address": "1 Rue du Mérinos, 13310 Saint-Martin-de-Crau, France",
+        "name": "Les Salons De Bagatelle",
+        "locationConfidence": 0.16397472
+      }, {
+        "latitudeE7": 436328648,
+        "longitudeE7": 48028787,
+        "placeId": "ChIJh-gwgN0LthIRW1huX2GUD68",
+        "address": "ZA du Cabrau, 10 Av. du Foirail, 13310 Saint-Martin-de-Crau, France",
+        "name": "Lidl",
+        "locationConfidence": 0.14685363
+      }, {
+        "latitudeE7": 436340095,
+        "longitudeE7": 48013017,
+        "placeId": "ChIJQRg4P90LthIRWS0uPJEK7EU",
+        "address": "Rue des Bergers, 13310 Saint-Martin-de-Crau, France",
+        "name": "Desk Com",
+        "locationConfidence": 0.13345805,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 436325670,
+        "longitudeE7": 48039910,
+        "placeId": "ChIJ5TNXYOcLthIR5FJmmbHglU0",
+        "address": "8 Av. du Foirail, 13310 Saint-Martin-de-Crau, France",
+        "name": "Pain 2 Caphan",
+        "locationConfidence": 0.10349619
+      }, {
+        "latitudeE7": 436336328,
+        "longitudeE7": 48025167,
+        "placeId": "ChIJA-zZEt0LthIRu_g5hvtZE_o",
+        "locationConfidence": 0.06956361
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 74,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 436337223,
+        "longitudeE7": 48009450,
+        "placeId": "ChIJJxAPaxgLthIRF7T_Ps4Wqyc",
+        "address": "ZA DU CABRAU, 13310 Saint-Martin-de-Crau, France",
+        "name": "Intermarche",
+        "locationConfidence": 82.39762,
+        "isCurrentLocation": true
+      },
+      "endLocation": {
+        "latitudeE7": 436384120,
+        "longitudeE7": 47956246
+      },
+      "duration": {
+        "startTimestamp": "2014-09-01T10:20:05.528Z",
+        "endTimestamp": "2014-09-01T10:27:01.549Z"
+      },
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 436339759,
+          "lngE7": 48014225
+        }, {
+          "latE7": 436419029,
+          "lngE7": 47955212
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 1512.4637294219287,
+        "travelMode": "DRIVE",
+        "confidence": 1.0
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 436384120,
+        "longitudeE7": 47956246
+      },
+      "endLocation": {
+        "latitudeE7": 436416205,
+        "longitudeE7": 47954196
+      },
+      "duration": {
+        "startTimestamp": "2014-09-01T10:27:01.549Z",
+        "endTimestamp": "2014-09-01T10:28:54.981Z"
+      },
+      "distance": 90,
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 436383209,
+          "lngE7": 47955746
+        }, {
+          "latE7": 436419029,
+          "lngE7": 47955212
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 513.5011741385182,
+        "travelMode": "WALK",
+        "confidence": 0.0
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 436417139,
+        "longitudeE7": 47954548,
+        "placeId": "ChIJ2zEO5MULthIRpkDEIKVnyqE",
+        "address": "11 Avenue Galilée, 13310 Saint-Martin-de-Crau, France",
+        "semanticType": "TYPE_WORK",
+        "locationConfidence": 98.79999
+      },
+      "duration": {
+        "startTimestamp": "2014-09-01T10:29:25.685Z",
+        "endTimestamp": "2014-09-01T15:02:22.154Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 436415785,
+      "centerLngE7": 47953991,
+      "visitConfidence": 83,
+      "otherCandidateLocations": [{
+        "latitudeE7": 436413337,
+        "longitudeE7": 47956304,
+        "placeId": "ChIJ5fU-3cULthIRQxE8XtkYvXg",
+        "address": "8 Rue Albert Einstein, 13310 Saint-Martin-de-Crau, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 1.0930283
+      }, {
+        "latitudeE7": 436417170,
+        "longitudeE7": 47956890,
+        "placeId": "ChIJG_wA5sULthIRNtkHzkmgb30",
+        "address": "Z.A du salat, 7 Av. Galilée, 13310 Saint-Martin-de-Crau, France",
+        "name": "Modélisme Center",
+        "locationConfidence": 0.013348679
+      }, {
+        "latitudeE7": 436413167,
+        "longitudeE7": 47954676,
+        "placeId": "ChIJ_Qe33cULthIRPWJOSlRsJOI",
+        "address": "Za Du Salat, 8 Rue Albert Einstein, 13310 Saint-Martin-de-Crau, France",
+        "name": "PEINTURE LACOMA",
+        "locationConfidence": 0.012653098
+      }, {
+        "latitudeE7": 436416380,
+        "longitudeE7": 47969419,
+        "placeId": "ChIJnW9Pl8ULthIRuHrGsDxsG3U",
+        "locationConfidence": 0.011107233
+      }, {
+        "latitudeE7": 436413390,
+        "longitudeE7": 47960900,
+        "placeId": "ChIJD0z53t0LthIRJ9oLMtIsZ84",
+        "address": "6 Rue Albert Einstein, 13310 Saint-Martin-de-Crau, France",
+        "name": "Léon Entreprise",
+        "locationConfidence": 0.011088653
+      }, {
+        "latitudeE7": 436422390,
+        "longitudeE7": 47938900,
+        "placeId": "ChIJWe0MoNgLthIRFFSTxClr_Nk",
+        "address": "Z.A du Salat, 1 Rue Copernic, 13310 Saint-Martin-de-Crau, France",
+        "name": "Douliere Hay France SAS",
+        "locationConfidence": 0.0046780678
+      }, {
+        "latitudeE7": 436400294,
+        "longitudeE7": 47963781,
+        "placeId": "ChIJXcI2scULthIRbRO4NdFYp5Y",
+        "address": "ZA du Salat, 13310 Saint-Martin-de-Crau, France",
+        "name": "Super U St Martin de Crau",
+        "locationConfidence": 0.0046167956
+      }, {
+        "latitudeE7": 436425970,
+        "longitudeE7": 47963470,
+        "placeId": "ChIJbfz_X88LthIRmIMr5I418rs",
+        "address": "Z.a. Du Salat II 11 Rue Copernic, 13310 Saint-Martin-de-Crau, France",
+        "name": "P2G ECONOMISTE",
+        "locationConfidence": 0.004316174
+      }, {
+        "latitudeE7": 436425290,
+        "longitudeE7": 47952553,
+        "placeId": "ChIJWe0MoNgLthIR9mEYPlYK_pw",
+        "address": "6 Rue Copernic, 13310 Saint-Martin-de-Crau, France",
+        "name": "Taloma",
+        "locationConfidence": 0.0036599478
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 92,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 436417139,
+        "longitudeE7": 47954548,
+        "placeId": "ChIJ2zEO5MULthIRpkDEIKVnyqE",
+        "address": "11 Avenue Galilée, 13310 Saint-Martin-de-Crau, France",
+        "semanticType": "TYPE_WORK",
+        "locationConfidence": 98.79999
+      },
+      "endLocation": {
+        "latitudeE7": 437879282,
+        "longitudeE7": 43913879,
+        "placeId": "ChIJb2hLNqkstBIRUAfmDyGIBxM",
+        "address": "5 Rue des Genêts, 30132 Caissargues, Gard, Languedoc-Roussillon, France",
+        "semanticType": "TYPE_HOME",
+        "locationConfidence": 93.76814
+      },
+      "duration": {
+        "startTimestamp": "2014-09-01T15:02:22.154Z",
+        "endTimestamp": "2014-09-01T15:28:57.151Z"
+      },
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 436418952,
+          "lngE7": 47955627
+        }, {
+          "latE7": 437877349,
+          "lngE7": 43916068
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 41417.311536496454,
+        "travelMode": "DRIVE",
+        "confidence": 0.9920898062373157
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 437879282,
+        "longitudeE7": 43913879,
+        "placeId": "ChIJb2hLNqkstBIRUAfmDyGIBxM",
+        "address": "5 Rue des Genêts, 30132 Caissargues, Gard, Languedoc-Roussillon, France",
+        "semanticType": "TYPE_HOME",
+        "locationConfidence": 93.76814
+      },
+      "duration": {
+        "startTimestamp": "2014-09-01T15:28:57.151Z",
+        "endTimestamp": "2014-09-01T22:28:09.205Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 437879423,
+      "centerLngE7": 43914021,
+      "visitConfidence": 86,
+      "otherCandidateLocations": [{
+        "latitudeE7": 437878011,
+        "longitudeE7": 43914602,
+        "placeId": "ChIJeQkmS6kstBIR3cJ230hM51w",
+        "address": "5 Rue des Genêts, 30132 Caissargues, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 3.7102609
+      }, {
+        "latitudeE7": 437875993,
+        "longitudeE7": 43913516,
+        "placeId": "ChIJk18WSakstBIRV13b-8R_bUw",
+        "address": "23 Rue des Genêts, 30132 Caissargues, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 1.091005
+      }, {
+        "latitudeE7": 437878744,
+        "longitudeE7": 43915217,
+        "placeId": "ChIJlRpfS6kstBIRGjySPrLW7y0",
+        "address": "7 Rue des Genêts, 30132 Caissargues, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.9947324
+      }, {
+        "latitudeE7": 437881060,
+        "longitudeE7": 43907732,
+        "placeId": "ChIJizt0zK4stBIR6UZt-I7B6_U",
+        "address": "25 Rue de la Ciboulette, 30132 Caissargues, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.40397605
+      }, {
+        "latitudeE7": 437872806,
+        "longitudeE7": 43915255,
+        "placeId": "ChIJY31jRqkstBIRoCprP3nwJGg",
+        "name": "Magan Jean-Francois",
+        "locationConfidence": 0.0058309548
+      }, {
+        "latitudeE7": 437879143,
+        "longitudeE7": 43850407,
+        "placeId": "ChIJGeVJeaYstBIRAQyyLa3Qs74",
+        "address": "4 Rue des Vignobles, 30132 Caissargues, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.003975516
+      }, {
+        "latitudeE7": 437699680,
+        "longitudeE7": 44267560,
+        "placeId": "ChIJVyJTSqkstBIRZPc5XX3OX4s",
+        "address": "19 Grand Rue 1er étage, 30128 Garons, France",
+        "name": "Durand Paysage",
+        "locationConfidence": 0.0027188929
+      }, {
+        "latitudeE7": 438078090,
+        "longitudeE7": 43716705,
+        "placeId": "ChIJYX_ZLKkstBIRyAJkTEVfzKk",
+        "address": "2350 Rte de Saint-Gilles, 30000 Nîmes, France",
+        "name": "Porte Electricité",
+        "locationConfidence": 0.0024253875
+      }, {
+        "latitudeE7": 437894326,
+        "longitudeE7": 43909471,
+        "placeId": "ChIJUwKsaKwstBIR57ItI1a61ec",
+        "address": "6167 Chem. de Bellevue, 30132 Caissargues, France",
+        "name": "Ecole Clos Mirman",
+        "locationConfidence": 0.0020688768
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 92,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+      },
+      "endLocation": {
+      },
+      "duration": {
+        "startTimestamp": "2014-09-02T05:20:16.433Z",
+        "endTimestamp": "2014-09-02T05:46:01.107Z"
+      },
+      "distance": 40185,
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 437875595,
+          "lngE7": 43911828
+        }, {
+          "latE7": 436419448,
+          "lngE7": 47952871
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 41550.554843300975,
+        "travelMode": "DRIVE",
+        "confidence": 0.9935794233407044
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 436417139,
+        "longitudeE7": 47954548,
+        "placeId": "ChIJ2zEO5MULthIRpkDEIKVnyqE",
+        "address": "11 Avenue Galilée, 13310 Saint-Martin-de-Crau, France",
+        "semanticType": "TYPE_WORK",
+        "locationConfidence": 98.815125
+      },
+      "duration": {
+        "startTimestamp": "2014-09-02T05:46:03.499Z",
+        "endTimestamp": "2014-09-02T10:37:38.541Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 436415799,
+      "centerLngE7": 47954023,
+      "visitConfidence": 81,
+      "otherCandidateLocations": [{
+        "latitudeE7": 436413337,
+        "longitudeE7": 47956304,
+        "placeId": "ChIJ5fU-3cULthIRQxE8XtkYvXg",
+        "address": "8 Rue Albert Einstein, 13310 Saint-Martin-de-Crau, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 1.0795676
+      }, {
+        "latitudeE7": 436417170,
+        "longitudeE7": 47956890,
+        "placeId": "ChIJG_wA5sULthIRNtkHzkmgb30",
+        "address": "Z.A du salat, 7 Av. Galilée, 13310 Saint-Martin-de-Crau, France",
+        "name": "Modélisme Center",
+        "locationConfidence": 0.012343309
+      }, {
+        "latitudeE7": 436413167,
+        "longitudeE7": 47954676,
+        "placeId": "ChIJ_Qe33cULthIRPWJOSlRsJOI",
+        "address": "Za Du Salat, 8 Rue Albert Einstein, 13310 Saint-Martin-de-Crau, France",
+        "name": "PEINTURE LACOMA",
+        "locationConfidence": 0.0123292655
+      }, {
+        "latitudeE7": 436413390,
+        "longitudeE7": 47960900,
+        "placeId": "ChIJD0z53t0LthIRJ9oLMtIsZ84",
+        "address": "6 Rue Albert Einstein, 13310 Saint-Martin-de-Crau, France",
+        "name": "Léon Entreprise",
+        "locationConfidence": 0.010979227
+      }, {
+        "latitudeE7": 436416380,
+        "longitudeE7": 47969419,
+        "placeId": "ChIJnW9Pl8ULthIRuHrGsDxsG3U",
+        "locationConfidence": 0.010945135
+      }, {
+        "latitudeE7": 436422390,
+        "longitudeE7": 47938900,
+        "placeId": "ChIJWe0MoNgLthIRFFSTxClr_Nk",
+        "address": "Z.A du Salat, 1 Rue Copernic, 13310 Saint-Martin-de-Crau, France",
+        "name": "Douliere Hay France SAS",
+        "locationConfidence": 0.0045967163
+      }, {
+        "latitudeE7": 436400294,
+        "longitudeE7": 47963781,
+        "placeId": "ChIJXcI2scULthIRbRO4NdFYp5Y",
+        "address": "ZA du Salat, 13310 Saint-Martin-de-Crau, France",
+        "name": "Super U St Martin de Crau",
+        "locationConfidence": 0.0045574526
+      }, {
+        "latitudeE7": 436425970,
+        "longitudeE7": 47963470,
+        "placeId": "ChIJbfz_X88LthIRmIMr5I418rs",
+        "address": "Z.a. Du Salat II 11 Rue Copernic, 13310 Saint-Martin-de-Crau, France",
+        "name": "P2G ECONOMISTE",
+        "locationConfidence": 0.0042732814
+      }, {
+        "latitudeE7": 436425290,
+        "longitudeE7": 47952553,
+        "placeId": "ChIJWe0MoNgLthIR9mEYPlYK_pw",
+        "address": "6 Rue Copernic, 13310 Saint-Martin-de-Crau, France",
+        "name": "Taloma",
+        "locationConfidence": 0.0036185142
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 92,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+      },
+      "endLocation": {
+      },
+      "duration": {
+        "startTimestamp": "2014-09-02T10:45:04.024Z",
+        "endTimestamp": "2014-09-02T10:57:08.173Z"
+      },
+      "distance": 570,
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 436424713,
+          "lngE7": 47968673
+        }, {
+          "latE7": 436400985,
+          "lngE7": 47982687
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 391.09403162589757,
+        "travelMode": "WALK",
+        "confidence": 0.40941913409989367
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+      },
+      "endLocation": {
+      },
+      "duration": {
+        "startTimestamp": "2014-09-02T11:00:28.954Z",
+        "endTimestamp": "2014-09-02T11:01:20.075Z"
+      },
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 436400985,
+          "lngE7": 47982687
+        }, {
+          "latE7": 436419143,
+          "lngE7": 47954730
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 394.75422370683066,
+        "travelMode": "WALK",
+        "confidence": 0.0
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 436417139,
+        "longitudeE7": 47954548,
+        "placeId": "ChIJ2zEO5MULthIRpkDEIKVnyqE",
+        "address": "11 Avenue Galilée, 13310 Saint-Martin-de-Crau, France",
+        "semanticType": "TYPE_WORK",
+        "locationConfidence": 98.92983
+      },
+      "duration": {
+        "startTimestamp": "2014-09-02T11:01:20.075Z",
+        "endTimestamp": "2014-09-02T14:57:29.554Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 436415995,
+      "centerLngE7": 47954153,
+      "visitConfidence": 64,
+      "otherCandidateLocations": [{
+        "latitudeE7": 436413337,
+        "longitudeE7": 47956304,
+        "placeId": "ChIJ5fU-3cULthIRQxE8XtkYvXg",
+        "address": "8 Rue Albert Einstein, 13310 Saint-Martin-de-Crau, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.9350595
+      }, {
+        "latitudeE7": 436417170,
+        "longitudeE7": 47956890,
+        "placeId": "ChIJG_wA5sULthIRNtkHzkmgb30",
+        "address": "Z.A du salat, 7 Av. Galilée, 13310 Saint-Martin-de-Crau, France",
+        "name": "Modélisme Center",
+        "locationConfidence": 0.046625264
+      }, {
+        "latitudeE7": 436416380,
+        "longitudeE7": 47969419,
+        "placeId": "ChIJnW9Pl8ULthIRuHrGsDxsG3U",
+        "locationConfidence": 0.01195444
+      }, {
+        "latitudeE7": 436413390,
+        "longitudeE7": 47960900,
+        "placeId": "ChIJD0z53t0LthIRJ9oLMtIsZ84",
+        "address": "6 Rue Albert Einstein, 13310 Saint-Martin-de-Crau, France",
+        "name": "Léon Entreprise",
+        "locationConfidence": 0.011684818
+      }, {
+        "latitudeE7": 436413167,
+        "longitudeE7": 47954676,
+        "placeId": "ChIJ_Qe33cULthIRPWJOSlRsJOI",
+        "address": "Za Du Salat, 8 Rue Albert Einstein, 13310 Saint-Martin-de-Crau, France",
+        "name": "PEINTURE LACOMA",
+        "locationConfidence": 0.01082179
+      }, {
+        "latitudeE7": 436425970,
+        "longitudeE7": 47963470,
+        "placeId": "ChIJbfz_X88LthIRmIMr5I418rs",
+        "address": "Z.a. Du Salat II 11 Rue Copernic, 13310 Saint-Martin-de-Crau, France",
+        "name": "P2G ECONOMISTE",
+        "locationConfidence": 0.0041047856
+      }, {
+        "latitudeE7": 436400294,
+        "longitudeE7": 47963781,
+        "placeId": "ChIJXcI2scULthIRbRO4NdFYp5Y",
+        "address": "ZA du Salat, 13310 Saint-Martin-de-Crau, France",
+        "name": "Super U St Martin de Crau",
+        "locationConfidence": 0.0040026964
+      }, {
+        "latitudeE7": 436422390,
+        "longitudeE7": 47938900,
+        "placeId": "ChIJWe0MoNgLthIRFFSTxClr_Nk",
+        "address": "Z.A du Salat, 1 Rue Copernic, 13310 Saint-Martin-de-Crau, France",
+        "name": "Douliere Hay France SAS",
+        "locationConfidence": 0.0039578388
+      }, {
+        "latitudeE7": 436425290,
+        "longitudeE7": 47952553,
+        "placeId": "ChIJWe0MoNgLthIR9mEYPlYK_pw",
+        "address": "6 Rue Copernic, 13310 Saint-Martin-de-Crau, France",
+        "name": "Taloma",
+        "locationConfidence": 0.0034475632
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 92,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 436417139,
+        "longitudeE7": 47954548,
+        "placeId": "ChIJ2zEO5MULthIRpkDEIKVnyqE",
+        "address": "11 Avenue Galilée, 13310 Saint-Martin-de-Crau, France",
+        "semanticType": "TYPE_WORK",
+        "locationConfidence": 98.92983
+      },
+      "endLocation": {
+        "latitudeE7": 437879282,
+        "longitudeE7": 43913879,
+        "placeId": "ChIJb2hLNqkstBIRUAfmDyGIBxM",
+        "address": "5 Rue des Genêts, 30132 Caissargues, Gard, Languedoc-Roussillon, France",
+        "semanticType": "TYPE_HOME",
+        "locationConfidence": 96.493164
+      },
+      "duration": {
+        "startTimestamp": "2014-09-02T14:57:29.554Z",
+        "endTimestamp": "2014-09-02T15:25:10.894Z"
+      },
+      "distance": 40143,
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 436418991,
+          "lngE7": 47955412
+        }, {
+          "latE7": 437877235,
+          "lngE7": 43915138
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 41411.107919717615,
+        "travelMode": "DRIVE",
+        "confidence": 0.9986541737915005
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 437879282,
+        "longitudeE7": 43913879,
+        "placeId": "ChIJb2hLNqkstBIRUAfmDyGIBxM",
+        "address": "5 Rue des Genêts, 30132 Caissargues, Gard, Languedoc-Roussillon, France",
+        "semanticType": "TYPE_HOME",
+        "locationConfidence": 96.493164
+      },
+      "duration": {
+        "startTimestamp": "2014-09-02T15:25:10.894Z",
+        "endTimestamp": "2014-09-03T05:39:39.061Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 437879637,
+      "centerLngE7": 43914071,
+      "visitConfidence": 64,
+      "otherCandidateLocations": [{
+        "latitudeE7": 437878011,
+        "longitudeE7": 43914602,
+        "placeId": "ChIJeQkmS6kstBIR3cJ230hM51w",
+        "address": "5 Rue des Genêts, 30132 Caissargues, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 2.0094075
+      }, {
+        "latitudeE7": 437875993,
+        "longitudeE7": 43913516,
+        "placeId": "ChIJk18WSakstBIRV13b-8R_bUw",
+        "address": "23 Rue des Genêts, 30132 Caissargues, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.6217488
+      }, {
+        "latitudeE7": 437878744,
+        "longitudeE7": 43915217,
+        "placeId": "ChIJlRpfS6kstBIRGjySPrLW7y0",
+        "address": "7 Rue des Genêts, 30132 Caissargues, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.59716785
+      }, {
+        "latitudeE7": 437881060,
+        "longitudeE7": 43907732,
+        "placeId": "ChIJizt0zK4stBIR6UZt-I7B6_U",
+        "address": "25 Rue de la Ciboulette, 30132 Caissargues, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.24030453
+      }, {
+        "latitudeE7": 437901266,
+        "longitudeE7": 43879419,
+        "placeId": "ChIJPxhqN6kstBIRknOaErRE_4E",
+        "address": "Av. Folco de Baroncelli, 30132 Caissargues, France",
+        "name": "Lacroix Dominique",
+        "locationConfidence": 0.0059236293
+      }, {
+        "latitudeE7": 437872806,
+        "longitudeE7": 43915255,
+        "placeId": "ChIJY31jRqkstBIRoCprP3nwJGg",
+        "name": "Magan Jean-Francois",
+        "locationConfidence": 0.0057769045
+      }, {
+        "latitudeE7": 437879143,
+        "longitudeE7": 43850407,
+        "placeId": "ChIJGeVJeaYstBIRAQyyLa3Qs74",
+        "address": "4 Rue des Vignobles, 30132 Caissargues, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.0030415126
+      }, {
+        "latitudeE7": 437699680,
+        "longitudeE7": 44267560,
+        "placeId": "ChIJVyJTSqkstBIRZPc5XX3OX4s",
+        "address": "19 Grand Rue 1er étage, 30128 Garons, France",
+        "name": "Durand Paysage",
+        "locationConfidence": 0.0024608825
+      }, {
+        "latitudeE7": 438078090,
+        "longitudeE7": 43716705,
+        "placeId": "ChIJYX_ZLKkstBIRyAJkTEVfzKk",
+        "address": "2350 Rte de Saint-Gilles, 30000 Nîmes, France",
+        "name": "Porte Electricité",
+        "locationConfidence": 0.0023922438
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 92,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 437879282,
+        "longitudeE7": 43913879,
+        "placeId": "ChIJb2hLNqkstBIRUAfmDyGIBxM",
+        "address": "5 Rue des Genêts, 30132 Caissargues, Gard, Languedoc-Roussillon, France",
+        "semanticType": "TYPE_HOME",
+        "locationConfidence": 96.493164
+      },
+      "endLocation": {
+        "latitudeE7": 436417139,
+        "longitudeE7": 47954548,
+        "placeId": "ChIJ2zEO5MULthIRpkDEIKVnyqE",
+        "address": "11 Avenue Galilée, 13310 Saint-Martin-de-Crau, France",
+        "semanticType": "TYPE_WORK",
+        "locationConfidence": 98.5568
+      },
+      "duration": {
+        "startTimestamp": "2014-09-03T05:39:39.061Z",
+        "endTimestamp": "2014-09-03T06:08:01.322Z"
+      },
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 437877426,
+          "lngE7": 43915700
+        }, {
+          "latE7": 436418991,
+          "lngE7": 47955508
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 41609.629899932006,
+        "travelMode": "DRIVE",
+        "confidence": 0.9969037564813162
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 436417139,
+        "longitudeE7": 47954548,
+        "placeId": "ChIJ2zEO5MULthIRpkDEIKVnyqE",
+        "address": "11 Avenue Galilée, 13310 Saint-Martin-de-Crau, France",
+        "semanticType": "TYPE_WORK",
+        "locationConfidence": 98.5568
+      },
+      "duration": {
+        "startTimestamp": "2014-09-03T06:08:01.322Z",
+        "endTimestamp": "2014-09-03T10:09:03.548Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 436415537,
+      "centerLngE7": 47953782,
+      "visitConfidence": 80,
+      "otherCandidateLocations": [{
+        "latitudeE7": 436413337,
+        "longitudeE7": 47956304,
+        "placeId": "ChIJ5fU-3cULthIRQxE8XtkYvXg",
+        "address": "8 Rue Albert Einstein, 13310 Saint-Martin-de-Crau, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 1.3271345
+      }, {
+        "latitudeE7": 436413167,
+        "longitudeE7": 47954676,
+        "placeId": "ChIJ_Qe33cULthIRPWJOSlRsJOI",
+        "address": "Za Du Salat, 8 Rue Albert Einstein, 13310 Saint-Martin-de-Crau, France",
+        "name": "PEINTURE LACOMA",
+        "locationConfidence": 0.014733737
+      }, {
+        "latitudeE7": 436413390,
+        "longitudeE7": 47960900,
+        "placeId": "ChIJD0z53t0LthIRJ9oLMtIsZ84",
+        "address": "6 Rue Albert Einstein, 13310 Saint-Martin-de-Crau, France",
+        "name": "Léon Entreprise",
+        "locationConfidence": 0.012692125
+      }, {
+        "latitudeE7": 436416380,
+        "longitudeE7": 47969419,
+        "placeId": "ChIJnW9Pl8ULthIRuHrGsDxsG3U",
+        "locationConfidence": 0.0105442265
+      }, {
+        "latitudeE7": 436417170,
+        "longitudeE7": 47956890,
+        "placeId": "ChIJG_wA5sULthIRNtkHzkmgb30",
+        "address": "Z.A du salat, 7 Av. Galilée, 13310 Saint-Martin-de-Crau, France",
+        "name": "Modélisme Center",
+        "locationConfidence": 0.008204485
+      }, {
+        "latitudeE7": 436422390,
+        "longitudeE7": 47938900,
+        "placeId": "ChIJWe0MoNgLthIRFFSTxClr_Nk",
+        "address": "Z.A du Salat, 1 Rue Copernic, 13310 Saint-Martin-de-Crau, France",
+        "name": "Douliere Hay France SAS",
+        "locationConfidence": 0.0057937573
+      }, {
+        "latitudeE7": 436400294,
+        "longitudeE7": 47963781,
+        "placeId": "ChIJXcI2scULthIRbRO4NdFYp5Y",
+        "address": "ZA du Salat, 13310 Saint-Martin-de-Crau, France",
+        "name": "Super U St Martin de Crau",
+        "locationConfidence": 0.0055953492
+      }, {
+        "latitudeE7": 436425970,
+        "longitudeE7": 47963470,
+        "placeId": "ChIJbfz_X88LthIRmIMr5I418rs",
+        "address": "Z.a. Du Salat II 11 Rue Copernic, 13310 Saint-Martin-de-Crau, France",
+        "name": "P2G ECONOMISTE",
+        "locationConfidence": 0.0049279053
+      }, {
+        "latitudeE7": 436409122,
+        "longitudeE7": 47953082,
+        "placeId": "ChIJaZZjQWIJthIR5zPasDO9FhY",
+        "address": "14 Rue Albert Einstein, 13310 Saint-Martin-de-Crau, France",
+        "name": "Pub2com",
+        "locationConfidence": 0.0044227643
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 92,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+      },
+      "endLocation": {
+      },
+      "duration": {
+        "startTimestamp": "2014-09-03T10:09:03.548Z",
+        "endTimestamp": "2014-09-03T10:11:09.809Z"
+      },
+      "distance": 354,
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 436419067,
+          "lngE7": 47955121
+        }, {
+          "latE7": 436400146,
+          "lngE7": 47987771
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 981.6669188455271,
+        "travelMode": "WALK",
+        "confidence": 1.0
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+      },
+      "endLocation": {
+      },
+      "duration": {
+        "startTimestamp": "2014-09-03T10:11:09.809Z",
+        "endTimestamp": "2014-09-03T10:15:28.627Z"
+      },
+      "distance": 150,
+      "confidence": "UNKNOWN_CONFIDENCE",
+      "activities": [{
+        "activityType": "UNKNOWN_ACTIVITY_TYPE",
+        "probability": 0.0
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 436412107,
+        "longitudeE7": 47957719
+      },
+      "endLocation": {
+        "latitudeE7": 436412289,
+        "longitudeE7": 47958032
+      },
+      "duration": {
+        "startTimestamp": "2014-09-03T10:15:28.627Z",
+        "endTimestamp": "2014-09-03T10:18:26.104Z"
+      },
+      "distance": 155,
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 436412467,
+          "lngE7": 47957835
+        }, {
+          "latE7": 436412429,
+          "lngE7": 47958083
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 2.0385816337381546,
+        "travelMode": "WALK",
+        "confidence": 0.0
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 436417139,
+        "longitudeE7": 47954548,
+        "placeId": "ChIJ2zEO5MULthIRpkDEIKVnyqE",
+        "address": "11 Avenue Galilée, 13310 Saint-Martin-de-Crau, France",
+        "semanticType": "TYPE_WORK",
+        "locationConfidence": 98.59097
+      },
+      "duration": {
+        "startTimestamp": "2014-09-03T10:21:23.714Z",
+        "endTimestamp": "2014-09-03T16:19:29.042Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 436415292,
+      "centerLngE7": 47958644,
+      "visitConfidence": 64,
+      "otherCandidateLocations": [{
+        "latitudeE7": 436413337,
+        "longitudeE7": 47956304,
+        "placeId": "ChIJ5fU-3cULthIRQxE8XtkYvXg",
+        "address": "8 Rue Albert Einstein, 13310 Saint-Martin-de-Crau, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 1.251751
+      }, {
+        "latitudeE7": 436417170,
+        "longitudeE7": 47956890,
+        "placeId": "ChIJG_wA5sULthIRNtkHzkmgb30",
+        "address": "Z.A du salat, 7 Av. Galilée, 13310 Saint-Martin-de-Crau, France",
+        "name": "Modélisme Center",
+        "locationConfidence": 0.053559132
+      }, {
+        "latitudeE7": 436413167,
+        "longitudeE7": 47954676,
+        "placeId": "ChIJ_Qe33cULthIRPWJOSlRsJOI",
+        "address": "Za Du Salat, 8 Rue Albert Einstein, 13310 Saint-Martin-de-Crau, France",
+        "name": "PEINTURE LACOMA",
+        "locationConfidence": 0.015270943
+      }, {
+        "latitudeE7": 436413390,
+        "longitudeE7": 47960900,
+        "placeId": "ChIJD0z53t0LthIRJ9oLMtIsZ84",
+        "address": "6 Rue Albert Einstein, 13310 Saint-Martin-de-Crau, France",
+        "name": "Léon Entreprise",
+        "locationConfidence": 0.01345955
+      }, {
+        "latitudeE7": 436416380,
+        "longitudeE7": 47969419,
+        "placeId": "ChIJnW9Pl8ULthIRuHrGsDxsG3U",
+        "locationConfidence": 0.012244437
+      }, {
+        "latitudeE7": 436400294,
+        "longitudeE7": 47963781,
+        "placeId": "ChIJXcI2scULthIRbRO4NdFYp5Y",
+        "address": "ZA du Salat, 13310 Saint-Martin-de-Crau, France",
+        "name": "Super U St Martin de Crau",
+        "locationConfidence": 0.005190667
+      }, {
+        "latitudeE7": 436422390,
+        "longitudeE7": 47938900,
+        "placeId": "ChIJWe0MoNgLthIRFFSTxClr_Nk",
+        "address": "Z.A du Salat, 1 Rue Copernic, 13310 Saint-Martin-de-Crau, France",
+        "name": "Douliere Hay France SAS",
+        "locationConfidence": 0.0049476745
+      }, {
+        "latitudeE7": 436425970,
+        "longitudeE7": 47963470,
+        "placeId": "ChIJbfz_X88LthIRmIMr5I418rs",
+        "address": "Z.a. Du Salat II 11 Rue Copernic, 13310 Saint-Martin-de-Crau, France",
+        "name": "P2G ECONOMISTE",
+        "locationConfidence": 0.004634249
+      }, {
+        "latitudeE7": 436409122,
+        "longitudeE7": 47953082,
+        "placeId": "ChIJaZZjQWIJthIR5zPasDO9FhY",
+        "address": "14 Rue Albert Einstein, 13310 Saint-Martin-de-Crau, France",
+        "name": "Pub2com",
+        "locationConfidence": 0.003886431
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 92,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 436417139,
+        "longitudeE7": 47954548,
+        "placeId": "ChIJ2zEO5MULthIRpkDEIKVnyqE",
+        "address": "11 Avenue Galilée, 13310 Saint-Martin-de-Crau, France",
+        "semanticType": "TYPE_WORK",
+        "locationConfidence": 98.59097
+      },
+      "endLocation": {
+        "latitudeE7": 437879282,
+        "longitudeE7": 43913879,
+        "placeId": "ChIJb2hLNqkstBIRUAfmDyGIBxM",
+        "address": "5 Rue des Genêts, 30132 Caissargues, Gard, Languedoc-Roussillon, France",
+        "semanticType": "TYPE_HOME",
+        "locationConfidence": 94.212296
+      },
+      "duration": {
+        "startTimestamp": "2014-09-03T16:19:29.042Z",
+        "endTimestamp": "2014-09-03T16:46:02.664Z"
+      },
+      "distance": 40419,
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 436415290,
+          "lngE7": 47969036
+        }, {
+          "latE7": 437877235,
+          "lngE7": 43915028
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 41306.64515088126,
+        "travelMode": "DRIVE",
+        "confidence": 0.9906254854914768
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 437879282,
+        "longitudeE7": 43913879,
+        "placeId": "ChIJb2hLNqkstBIRUAfmDyGIBxM",
+        "address": "5 Rue des Genêts, 30132 Caissargues, Gard, Languedoc-Roussillon, France",
+        "semanticType": "TYPE_HOME",
+        "locationConfidence": 94.212296
+      },
+      "duration": {
+        "startTimestamp": "2014-09-03T16:46:10.622Z",
+        "endTimestamp": "2014-09-04T05:32:50.645Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 437879629,
+      "centerLngE7": 43914081,
+      "visitConfidence": 64,
+      "otherCandidateLocations": [{
+        "latitudeE7": 437878011,
+        "longitudeE7": 43914602,
+        "placeId": "ChIJeQkmS6kstBIR3cJ230hM51w",
+        "address": "5 Rue des Genêts, 30132 Caissargues, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 3.2903986
+      }, {
+        "latitudeE7": 437875993,
+        "longitudeE7": 43913516,
+        "placeId": "ChIJk18WSakstBIRV13b-8R_bUw",
+        "address": "23 Rue des Genêts, 30132 Caissargues, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 1.0788894
+      }, {
+        "latitudeE7": 437878744,
+        "longitudeE7": 43915217,
+        "placeId": "ChIJlRpfS6kstBIRGjySPrLW7y0",
+        "address": "7 Rue des Genêts, 30132 Caissargues, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.9532926
+      }, {
+        "latitudeE7": 437881060,
+        "longitudeE7": 43907732,
+        "placeId": "ChIJizt0zK4stBIR6UZt-I7B6_U",
+        "address": "25 Rue de la Ciboulette, 30132 Caissargues, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.4307416
+      }, {
+        "latitudeE7": 437872806,
+        "longitudeE7": 43915255,
+        "placeId": "ChIJY31jRqkstBIRoCprP3nwJGg",
+        "name": "Magan Jean-Francois",
+        "locationConfidence": 0.0061996747
+      }, {
+        "latitudeE7": 437879143,
+        "longitudeE7": 43850407,
+        "placeId": "ChIJGeVJeaYstBIRAQyyLa3Qs74",
+        "address": "4 Rue des Vignobles, 30132 Caissargues, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.004244498
+      }, {
+        "latitudeE7": 438078090,
+        "longitudeE7": 43716705,
+        "placeId": "ChIJYX_ZLKkstBIRyAJkTEVfzKk",
+        "address": "2350 Rte de Saint-Gilles, 30000 Nîmes, France",
+        "name": "Porte Electricité",
+        "locationConfidence": 0.0025928621
+      }, {
+        "latitudeE7": 437699680,
+        "longitudeE7": 44267560,
+        "placeId": "ChIJVyJTSqkstBIRZPc5XX3OX4s",
+        "address": "19 Grand Rue 1er étage, 30128 Garons, France",
+        "name": "Durand Paysage",
+        "locationConfidence": 0.0025627175
+      }, {
+        "latitudeE7": 437894326,
+        "longitudeE7": 43909471,
+        "placeId": "ChIJUwKsaKwstBIR57ItI1a61ec",
+        "address": "6167 Chem. de Bellevue, 30132 Caissargues, France",
+        "name": "Ecole Clos Mirman",
+        "locationConfidence": 0.0023228088
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 92,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 437879282,
+        "longitudeE7": 43913879,
+        "placeId": "ChIJb2hLNqkstBIRUAfmDyGIBxM",
+        "address": "5 Rue des Genêts, 30132 Caissargues, Gard, Languedoc-Roussillon, France",
+        "semanticType": "TYPE_HOME",
+        "locationConfidence": 94.212296
+      },
+      "endLocation": {
+        "latitudeE7": 436417139,
+        "longitudeE7": 47954548,
+        "placeId": "ChIJ2zEO5MULthIRpkDEIKVnyqE",
+        "address": "11 Avenue Galilée, 13310 Saint-Martin-de-Crau, France",
+        "semanticType": "TYPE_WORK",
+        "locationConfidence": 98.50502
+      },
+      "duration": {
+        "startTimestamp": "2014-09-04T05:32:50.645Z",
+        "endTimestamp": "2014-09-04T06:00:26.976Z"
+      },
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 437873878,
+          "lngE7": 43910455
+        }, {
+          "latE7": 436412429,
+          "lngE7": 47955436
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 41441.24301213411,
+        "travelMode": "DRIVE",
+        "confidence": 1.0
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 436417139,
+        "longitudeE7": 47954548,
+        "placeId": "ChIJ2zEO5MULthIRpkDEIKVnyqE",
+        "address": "11 Avenue Galilée, 13310 Saint-Martin-de-Crau, France",
+        "semanticType": "TYPE_WORK",
+        "locationConfidence": 98.50502
+      },
+      "duration": {
+        "startTimestamp": "2014-09-04T06:00:26.976Z",
+        "endTimestamp": "2014-09-04T10:02:51.115Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 436415483,
+      "centerLngE7": 47953914,
+      "visitConfidence": 80,
+      "otherCandidateLocations": [{
+        "latitudeE7": 436413337,
+        "longitudeE7": 47956304,
+        "placeId": "ChIJ5fU-3cULthIRQxE8XtkYvXg",
+        "address": "8 Rue Albert Einstein, 13310 Saint-Martin-de-Crau, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 1.3752536
+      }, {
+        "latitudeE7": 436413167,
+        "longitudeE7": 47954676,
+        "placeId": "ChIJ_Qe33cULthIRPWJOSlRsJOI",
+        "address": "Za Du Salat, 8 Rue Albert Einstein, 13310 Saint-Martin-de-Crau, France",
+        "name": "PEINTURE LACOMA",
+        "locationConfidence": 0.016020408
+      }, {
+        "latitudeE7": 436416380,
+        "longitudeE7": 47969419,
+        "placeId": "ChIJnW9Pl8ULthIRuHrGsDxsG3U",
+        "locationConfidence": 0.012666272
+      }, {
+        "latitudeE7": 436413390,
+        "longitudeE7": 47960900,
+        "placeId": "ChIJD0z53t0LthIRJ9oLMtIsZ84",
+        "address": "6 Rue Albert Einstein, 13310 Saint-Martin-de-Crau, France",
+        "name": "Léon Entreprise",
+        "locationConfidence": 0.011046485
+      }, {
+        "latitudeE7": 436417170,
+        "longitudeE7": 47956890,
+        "placeId": "ChIJG_wA5sULthIRNtkHzkmgb30",
+        "address": "Z.A du salat, 7 Av. Galilée, 13310 Saint-Martin-de-Crau, France",
+        "name": "Modélisme Center",
+        "locationConfidence": 0.009906889
+      }, {
+        "latitudeE7": 436422390,
+        "longitudeE7": 47938900,
+        "placeId": "ChIJWe0MoNgLthIRFFSTxClr_Nk",
+        "address": "Z.A du Salat, 1 Rue Copernic, 13310 Saint-Martin-de-Crau, France",
+        "name": "Douliere Hay France SAS",
+        "locationConfidence": 0.005805463
+      }, {
+        "latitudeE7": 436400294,
+        "longitudeE7": 47963781,
+        "placeId": "ChIJXcI2scULthIRbRO4NdFYp5Y",
+        "address": "ZA du Salat, 13310 Saint-Martin-de-Crau, France",
+        "name": "Super U St Martin de Crau",
+        "locationConfidence": 0.005747951
+      }, {
+        "latitudeE7": 436425970,
+        "longitudeE7": 47963470,
+        "placeId": "ChIJbfz_X88LthIRmIMr5I418rs",
+        "address": "Z.a. Du Salat II 11 Rue Copernic, 13310 Saint-Martin-de-Crau, France",
+        "name": "P2G ECONOMISTE",
+        "locationConfidence": 0.0049813404
+      }, {
+        "latitudeE7": 436409122,
+        "longitudeE7": 47953082,
+        "placeId": "ChIJaZZjQWIJthIR5zPasDO9FhY",
+        "address": "14 Rue Albert Einstein, 13310 Saint-Martin-de-Crau, France",
+        "name": "Pub2com",
+        "locationConfidence": 0.0044410843
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 92,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+      },
+      "endLocation": {
+      },
+      "duration": {
+        "startTimestamp": "2014-09-04T10:02:51.115Z",
+        "endTimestamp": "2014-09-04T10:10:10.010Z"
+      },
+      "distance": 1148,
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 436418991,
+          "lngE7": 47955393
+        }, {
+          "latE7": 436333847,
+          "lngE7": 48009614
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 1292.1751303829808,
+        "travelMode": "DRIVE",
+        "confidence": 0.9457722689402767
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+      },
+      "endLocation": {
+      },
+      "duration": {
+        "startTimestamp": "2014-09-04T10:10:10.010Z",
+        "endTimestamp": "2014-09-04T10:20:30.523Z"
+      },
+      "distance": 670,
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 436333847,
+          "lngE7": 48009614
+        }, {
+          "latE7": 436357002,
+          "lngE7": 48082523
+        }, {
+          "latE7": 436357612,
+          "lngE7": 48081736
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 693.5420580784598,
+        "travelMode": "WALK",
+        "confidence": 1.0
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 436357117,
+          "lngE7": 48082681,
+          "accuracyMeters": 28,
+          "timestamp": "2014-09-04T10:18:24.877Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+      },
+      "endLocation": {
+      },
+      "duration": {
+        "startTimestamp": "2014-09-04T10:26:49.298Z",
+        "endTimestamp": "2014-09-04T10:32:13.049Z"
+      },
+      "distance": 1437,
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 436358833,
+          "lngE7": 48080115
+        }, {
+          "latE7": 436358718,
+          "lngE7": 47991638
+        }, {
+          "latE7": 436419029,
+          "lngE7": 47955245
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 1785.842130616954,
+        "travelMode": "DRIVE",
+        "confidence": 1.0
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 436356964,
+          "lngE7": 47989340,
+          "accuracyMeters": 39,
+          "timestamp": "2014-09-04T10:28:36.257Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 436417139,
+        "longitudeE7": 47954548,
+        "placeId": "ChIJ2zEO5MULthIRpkDEIKVnyqE",
+        "address": "11 Avenue Galilée, 13310 Saint-Martin-de-Crau, France",
+        "semanticType": "TYPE_WORK",
+        "locationConfidence": 98.53679
+      },
+      "duration": {
+        "startTimestamp": "2014-09-04T10:32:13.049Z",
+        "endTimestamp": "2014-09-04T14:59:01.956Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 436415531,
+      "centerLngE7": 47953871,
+      "visitConfidence": 80,
+      "otherCandidateLocations": [{
+        "latitudeE7": 436413337,
+        "longitudeE7": 47956304,
+        "placeId": "ChIJ5fU-3cULthIRQxE8XtkYvXg",
+        "address": "8 Rue Albert Einstein, 13310 Saint-Martin-de-Crau, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 1.3336474
+      }, {
+        "latitudeE7": 436417170,
+        "longitudeE7": 47956890,
+        "placeId": "ChIJG_wA5sULthIRNtkHzkmgb30",
+        "address": "Z.A du salat, 7 Av. Galilée, 13310 Saint-Martin-de-Crau, France",
+        "name": "Modélisme Center",
+        "locationConfidence": 0.023236776
+      }, {
+        "latitudeE7": 436413167,
+        "longitudeE7": 47954676,
+        "placeId": "ChIJ_Qe33cULthIRPWJOSlRsJOI",
+        "address": "Za Du Salat, 8 Rue Albert Einstein, 13310 Saint-Martin-de-Crau, France",
+        "name": "PEINTURE LACOMA",
+        "locationConfidence": 0.015097261
+      }, {
+        "latitudeE7": 436416380,
+        "longitudeE7": 47969419,
+        "placeId": "ChIJnW9Pl8ULthIRuHrGsDxsG3U",
+        "locationConfidence": 0.012356102
+      }, {
+        "latitudeE7": 436413390,
+        "longitudeE7": 47960900,
+        "placeId": "ChIJD0z53t0LthIRJ9oLMtIsZ84",
+        "address": "6 Rue Albert Einstein, 13310 Saint-Martin-de-Crau, France",
+        "name": "Léon Entreprise",
+        "locationConfidence": 0.009802407
+      }, {
+        "latitudeE7": 436422390,
+        "longitudeE7": 47938900,
+        "placeId": "ChIJWe0MoNgLthIRFFSTxClr_Nk",
+        "address": "Z.A du Salat, 1 Rue Copernic, 13310 Saint-Martin-de-Crau, France",
+        "name": "Douliere Hay France SAS",
+        "locationConfidence": 0.005707296
+      }, {
+        "latitudeE7": 436400294,
+        "longitudeE7": 47963781,
+        "placeId": "ChIJXcI2scULthIRbRO4NdFYp5Y",
+        "address": "ZA du Salat, 13310 Saint-Martin-de-Crau, France",
+        "name": "Super U St Martin de Crau",
+        "locationConfidence": 0.005602269
+      }, {
+        "latitudeE7": 436425970,
+        "longitudeE7": 47963470,
+        "placeId": "ChIJbfz_X88LthIRmIMr5I418rs",
+        "address": "Z.a. Du Salat II 11 Rue Copernic, 13310 Saint-Martin-de-Crau, France",
+        "name": "P2G ECONOMISTE",
+        "locationConfidence": 0.004987393
+      }, {
+        "latitudeE7": 436409122,
+        "longitudeE7": 47953082,
+        "placeId": "ChIJaZZjQWIJthIR5zPasDO9FhY",
+        "address": "14 Rue Albert Einstein, 13310 Saint-Martin-de-Crau, France",
+        "name": "Pub2com",
+        "locationConfidence": 0.004399387
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 92,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 436417139,
+        "longitudeE7": 47954548,
+        "placeId": "ChIJ2zEO5MULthIRpkDEIKVnyqE",
+        "address": "11 Avenue Galilée, 13310 Saint-Martin-de-Crau, France",
+        "semanticType": "TYPE_WORK",
+        "locationConfidence": 98.53679
+      },
+      "endLocation": {
+        "latitudeE7": 437879282,
+        "longitudeE7": 43913879,
+        "placeId": "ChIJb2hLNqkstBIRUAfmDyGIBxM",
+        "address": "5 Rue des Genêts, 30132 Caissargues, Gard, Languedoc-Roussillon, France",
+        "semanticType": "TYPE_HOME",
+        "locationConfidence": 43.64322
+      },
+      "duration": {
+        "startTimestamp": "2014-09-04T14:59:15.860Z",
+        "endTimestamp": "2014-09-04T15:26:26.050Z"
+      },
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 436412429,
+          "lngE7": 47955479
+        }, {
+          "latE7": 437894668,
+          "lngE7": 43877096
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 41108.497921183676,
+        "travelMode": "DRIVE",
+        "confidence": 0.9519822574350307
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 437879282,
+        "longitudeE7": 43913879,
+        "placeId": "ChIJb2hLNqkstBIRUAfmDyGIBxM",
+        "address": "5 Rue des Genêts, 30132 Caissargues, Gard, Languedoc-Roussillon, France",
+        "semanticType": "TYPE_HOME",
+        "locationConfidence": 43.64322
+      },
+      "duration": {
+        "startTimestamp": "2014-09-04T15:26:26.050Z",
+        "endTimestamp": "2014-09-04T15:41:04.162Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 437895073,
+      "centerLngE7": 43878033,
+      "visitConfidence": 75,
+      "otherCandidateLocations": [{
+        "latitudeE7": 437902205,
+        "longitudeE7": 43876994,
+        "placeId": "ChIJuxL8Da8stBIRIAfohvCBIog",
+        "address": "Le Clos Mirman, Chem. de Bellevue, 30132 Caissargues, France",
+        "name": "Pharmacie de Mirman",
+        "locationConfidence": 22.942327
+      }, {
+        "latitudeE7": 437897665,
+        "longitudeE7": 43877411,
+        "placeId": "ChIJUwKsaKwstBIRSYjVOfxYTCs",
+        "address": "Centre Commercial Les Portes de Mirman, 30132 Caissargues, France",
+        "name": "Colaurcoiff",
+        "locationConfidence": 22.655716
+      }, {
+        "latitudeE7": 437878011,
+        "longitudeE7": 43914602,
+        "placeId": "ChIJeQkmS6kstBIR3cJ230hM51w",
+        "address": "5 Rue des Genêts, 30132 Caissargues, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 2.63114
+      }, {
+        "latitudeE7": 437899381,
+        "longitudeE7": 43889642,
+        "placeId": "ChIJuxL8Da8stBIRzSc3nrt6eTQ",
+        "address": "206 Chem. des Canaux, 30132 Caissargues, France",
+        "name": "Salanova Claire et Corral Sonia SCM des Docteurs",
+        "locationConfidence": 1.8513422
+      }, {
+        "latitudeE7": 437879143,
+        "longitudeE7": 43850407,
+        "placeId": "ChIJGeVJeaYstBIRAQyyLa3Qs74",
+        "address": "4 Rue des Vignobles, 30132 Caissargues, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 1.4131143
+      }, {
+        "latitudeE7": 437875993,
+        "longitudeE7": 43913516,
+        "placeId": "ChIJk18WSakstBIRV13b-8R_bUw",
+        "address": "23 Rue des Genêts, 30132 Caissargues, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 1.3855785
+      }, {
+        "latitudeE7": 437881060,
+        "longitudeE7": 43907732,
+        "placeId": "ChIJizt0zK4stBIR6UZt-I7B6_U",
+        "address": "25 Rue de la Ciboulette, 30132 Caissargues, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 1.0551554
+      }, {
+        "latitudeE7": 437878744,
+        "longitudeE7": 43915217,
+        "placeId": "ChIJlRpfS6kstBIRGjySPrLW7y0",
+        "address": "7 Rue des Genêts, 30132 Caissargues, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.56950384
+      }, {
+        "latitudeE7": 437892839,
+        "longitudeE7": 43893273,
+        "placeId": "ChIJg1fkPK8stBIRdNYI3-iR5jg",
+        "address": "1 Rue des Bartavelles, 30132 Caissargues, France",
+        "name": "Montbrun Myriam",
+        "locationConfidence": 0.32642177
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 92,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+      },
+      "endLocation": {
+      },
+      "duration": {
+        "startTimestamp": "2014-09-04T15:46:44.030Z",
+        "endTimestamp": "2014-09-04T15:47:46.996Z"
+      },
+      "distance": 338,
+      "confidence": "UNKNOWN_CONFIDENCE",
+      "activities": [{
+        "activityType": "UNKNOWN_ACTIVITY_TYPE",
+        "probability": 0.0
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 437879282,
+        "longitudeE7": 43913879,
+        "placeId": "ChIJb2hLNqkstBIRUAfmDyGIBxM",
+        "address": "5 Rue des Genêts, 30132 Caissargues, Gard, Languedoc-Roussillon, France",
+        "semanticType": "TYPE_HOME",
+        "locationConfidence": 95.6603
+      },
+      "duration": {
+        "startTimestamp": "2014-09-04T15:47:46.996Z",
+        "endTimestamp": "2014-09-05T05:25:14.597Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 437879655,
+      "centerLngE7": 43913994,
+      "visitConfidence": 64,
+      "otherCandidateLocations": [{
+        "latitudeE7": 437878011,
+        "longitudeE7": 43914602,
+        "placeId": "ChIJeQkmS6kstBIR3cJ230hM51w",
+        "address": "5 Rue des Genêts, 30132 Caissargues, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 2.796442
+      }, {
+        "latitudeE7": 437875993,
+        "longitudeE7": 43913516,
+        "placeId": "ChIJk18WSakstBIRV13b-8R_bUw",
+        "address": "23 Rue des Genêts, 30132 Caissargues, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.6393458
+      }, {
+        "latitudeE7": 437878744,
+        "longitudeE7": 43915217,
+        "placeId": "ChIJlRpfS6kstBIRGjySPrLW7y0",
+        "address": "7 Rue des Genêts, 30132 Caissargues, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.5979918
+      }, {
+        "latitudeE7": 437881060,
+        "longitudeE7": 43907732,
+        "placeId": "ChIJizt0zK4stBIR6UZt-I7B6_U",
+        "address": "25 Rue de la Ciboulette, 30132 Caissargues, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.26566127
+      }, {
+        "latitudeE7": 437872806,
+        "longitudeE7": 43915255,
+        "placeId": "ChIJY31jRqkstBIRoCprP3nwJGg",
+        "name": "Magan Jean-Francois",
+        "locationConfidence": 0.006324761
+      }, {
+        "latitudeE7": 437901266,
+        "longitudeE7": 43879419,
+        "placeId": "ChIJPxhqN6kstBIRknOaErRE_4E",
+        "address": "Av. Folco de Baroncelli, 30132 Caissargues, France",
+        "name": "Lacroix Dominique",
+        "locationConfidence": 0.004737711
+      }, {
+        "latitudeE7": 437699680,
+        "longitudeE7": 44267560,
+        "placeId": "ChIJVyJTSqkstBIRZPc5XX3OX4s",
+        "address": "19 Grand Rue 1er étage, 30128 Garons, France",
+        "name": "Durand Paysage",
+        "locationConfidence": 0.0038641938
+      }, {
+        "latitudeE7": 438078090,
+        "longitudeE7": 43716705,
+        "placeId": "ChIJYX_ZLKkstBIRyAJkTEVfzKk",
+        "address": "2350 Rte de Saint-Gilles, 30000 Nîmes, France",
+        "name": "Porte Electricité",
+        "locationConfidence": 0.0026350396
+      }, {
+        "latitudeE7": 437879143,
+        "longitudeE7": 43850407,
+        "placeId": "ChIJGeVJeaYstBIRAQyyLa3Qs74",
+        "address": "4 Rue des Vignobles, 30132 Caissargues, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.0026000265
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 92,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 437879282,
+        "longitudeE7": 43913879,
+        "placeId": "ChIJb2hLNqkstBIRUAfmDyGIBxM",
+        "address": "5 Rue des Genêts, 30132 Caissargues, Gard, Languedoc-Roussillon, France",
+        "semanticType": "TYPE_HOME",
+        "locationConfidence": 95.6603
+      },
+      "endLocation": {
+        "latitudeE7": 436417139,
+        "longitudeE7": 47954548,
+        "placeId": "ChIJ2zEO5MULthIRpkDEIKVnyqE",
+        "address": "11 Avenue Galilée, 13310 Saint-Martin-de-Crau, France",
+        "semanticType": "TYPE_WORK",
+        "locationConfidence": 98.57276
+      },
+      "duration": {
+        "startTimestamp": "2014-09-05T05:25:14.597Z",
+        "endTimestamp": "2014-09-05T05:51:40.093Z"
+      },
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 437874984,
+          "lngE7": 43910813
+        }, {
+          "latE7": 436412391,
+          "lngE7": 47955260
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 41459.12547184121,
+        "travelMode": "DRIVE",
+        "confidence": 0.9992719471608232
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 436417139,
+        "longitudeE7": 47954548,
+        "placeId": "ChIJ2zEO5MULthIRpkDEIKVnyqE",
+        "address": "11 Avenue Galilée, 13310 Saint-Martin-de-Crau, France",
+        "semanticType": "TYPE_WORK",
+        "locationConfidence": 98.57276
+      },
+      "duration": {
+        "startTimestamp": "2014-09-05T05:51:40.093Z",
+        "endTimestamp": "2014-09-05T10:04:21.297Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 436415574,
+      "centerLngE7": 47954126,
+      "visitConfidence": 81,
+      "otherCandidateLocations": [{
+        "latitudeE7": 436413337,
+        "longitudeE7": 47956304,
+        "placeId": "ChIJ5fU-3cULthIRQxE8XtkYvXg",
+        "address": "8 Rue Albert Einstein, 13310 Saint-Martin-de-Crau, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 1.3046256
+      }, {
+        "latitudeE7": 436417170,
+        "longitudeE7": 47956890,
+        "placeId": "ChIJG_wA5sULthIRNtkHzkmgb30",
+        "address": "Z.A du salat, 7 Av. Galilée, 13310 Saint-Martin-de-Crau, France",
+        "name": "Modélisme Center",
+        "locationConfidence": 0.01591849
+      }, {
+        "latitudeE7": 436413167,
+        "longitudeE7": 47954676,
+        "placeId": "ChIJ_Qe33cULthIRPWJOSlRsJOI",
+        "address": "Za Du Salat, 8 Rue Albert Einstein, 13310 Saint-Martin-de-Crau, France",
+        "name": "PEINTURE LACOMA",
+        "locationConfidence": 0.015849307
+      }, {
+        "latitudeE7": 436413390,
+        "longitudeE7": 47960900,
+        "placeId": "ChIJD0z53t0LthIRJ9oLMtIsZ84",
+        "address": "6 Rue Albert Einstein, 13310 Saint-Martin-de-Crau, France",
+        "name": "Léon Entreprise",
+        "locationConfidence": 0.012774845
+      }, {
+        "latitudeE7": 436416380,
+        "longitudeE7": 47969419,
+        "placeId": "ChIJnW9Pl8ULthIRuHrGsDxsG3U",
+        "locationConfidence": 0.011346702
+      }, {
+        "latitudeE7": 436400294,
+        "longitudeE7": 47963781,
+        "placeId": "ChIJXcI2scULthIRbRO4NdFYp5Y",
+        "address": "ZA du Salat, 13310 Saint-Martin-de-Crau, France",
+        "name": "Super U St Martin de Crau",
+        "locationConfidence": 0.0054226746
+      }, {
+        "latitudeE7": 436422390,
+        "longitudeE7": 47938900,
+        "placeId": "ChIJWe0MoNgLthIRFFSTxClr_Nk",
+        "address": "Z.A du Salat, 1 Rue Copernic, 13310 Saint-Martin-de-Crau, France",
+        "name": "Douliere Hay France SAS",
+        "locationConfidence": 0.0053121126
+      }, {
+        "latitudeE7": 436425970,
+        "longitudeE7": 47963470,
+        "placeId": "ChIJbfz_X88LthIRmIMr5I418rs",
+        "address": "Z.a. Du Salat II 11 Rue Copernic, 13310 Saint-Martin-de-Crau, France",
+        "name": "P2G ECONOMISTE",
+        "locationConfidence": 0.00479113
+      }, {
+        "latitudeE7": 436409122,
+        "longitudeE7": 47953082,
+        "placeId": "ChIJaZZjQWIJthIR5zPasDO9FhY",
+        "address": "14 Rue Albert Einstein, 13310 Saint-Martin-de-Crau, France",
+        "name": "Pub2com",
+        "locationConfidence": 0.004121166
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 92,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 436411297,
+        "longitudeE7": 47956167
+      },
+      "endLocation": {
+        "latitudeE7": 436375505,
+        "longitudeE7": 47827628
+      },
+      "duration": {
+        "startTimestamp": "2014-09-05T10:04:32.140Z",
+        "endTimestamp": "2014-09-05T10:14:00.450Z"
+      },
+      "distance": 304,
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 436411132,
+          "lngE7": 47954597
+        }, {
+          "latE7": 436375617,
+          "lngE7": 47828650
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 1916.7932890686573,
+        "travelMode": "WALK",
+        "confidence": 0.0
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+      },
+      "endLocation": {
+      },
+      "duration": {
+        "startTimestamp": "2014-09-05T10:25:26.028Z",
+        "endTimestamp": "2014-09-05T10:27:24.339Z"
+      },
+      "distance": 348,
+      "confidence": "UNKNOWN_CONFIDENCE",
+      "activities": [{
+        "activityType": "UNKNOWN_ACTIVITY_TYPE",
+        "probability": 0.0
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 436417139,
+        "longitudeE7": 47954548,
+        "placeId": "ChIJ2zEO5MULthIRpkDEIKVnyqE",
+        "address": "11 Avenue Galilée, 13310 Saint-Martin-de-Crau, France",
+        "semanticType": "TYPE_WORK",
+        "locationConfidence": 98.49733
+      },
+      "duration": {
+        "startTimestamp": "2014-09-05T10:27:24.339Z",
+        "endTimestamp": "2014-09-05T15:09:23.233Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 436415488,
+      "centerLngE7": 47953887,
+      "visitConfidence": 82,
+      "otherCandidateLocations": [{
+        "latitudeE7": 436413337,
+        "longitudeE7": 47956304,
+        "placeId": "ChIJ5fU-3cULthIRQxE8XtkYvXg",
+        "address": "8 Rue Albert Einstein, 13310 Saint-Martin-de-Crau, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 1.3701824
+      }, {
+        "latitudeE7": 436417170,
+        "longitudeE7": 47956890,
+        "placeId": "ChIJG_wA5sULthIRNtkHzkmgb30",
+        "address": "Z.A du salat, 7 Av. Galilée, 13310 Saint-Martin-de-Crau, France",
+        "name": "Modélisme Center",
+        "locationConfidence": 0.024827192
+      }, {
+        "latitudeE7": 436413167,
+        "longitudeE7": 47954676,
+        "placeId": "ChIJ_Qe33cULthIRPWJOSlRsJOI",
+        "address": "Za Du Salat, 8 Rue Albert Einstein, 13310 Saint-Martin-de-Crau, France",
+        "name": "PEINTURE LACOMA",
+        "locationConfidence": 0.015547199
+      }, {
+        "latitudeE7": 436416380,
+        "longitudeE7": 47969419,
+        "placeId": "ChIJnW9Pl8ULthIRuHrGsDxsG3U",
+        "locationConfidence": 0.011973598
+      }, {
+        "latitudeE7": 436413390,
+        "longitudeE7": 47960900,
+        "placeId": "ChIJD0z53t0LthIRJ9oLMtIsZ84",
+        "address": "6 Rue Albert Einstein, 13310 Saint-Martin-de-Crau, France",
+        "name": "Léon Entreprise",
+        "locationConfidence": 0.0100878915
+      }, {
+        "latitudeE7": 436422390,
+        "longitudeE7": 47938900,
+        "placeId": "ChIJWe0MoNgLthIRFFSTxClr_Nk",
+        "address": "Z.A du Salat, 1 Rue Copernic, 13310 Saint-Martin-de-Crau, France",
+        "name": "Douliere Hay France SAS",
+        "locationConfidence": 0.005825778
+      }, {
+        "latitudeE7": 436400294,
+        "longitudeE7": 47963781,
+        "placeId": "ChIJXcI2scULthIRbRO4NdFYp5Y",
+        "address": "ZA du Salat, 13310 Saint-Martin-de-Crau, France",
+        "name": "Super U St Martin de Crau",
+        "locationConfidence": 0.005735414
+      }, {
+        "latitudeE7": 436425970,
+        "longitudeE7": 47963470,
+        "placeId": "ChIJbfz_X88LthIRmIMr5I418rs",
+        "address": "Z.a. Du Salat II 11 Rue Copernic, 13310 Saint-Martin-de-Crau, France",
+        "name": "P2G ECONOMISTE",
+        "locationConfidence": 0.0049787886
+      }, {
+        "latitudeE7": 436409122,
+        "longitudeE7": 47953082,
+        "placeId": "ChIJaZZjQWIJthIR5zPasDO9FhY",
+        "address": "14 Rue Albert Einstein, 13310 Saint-Martin-de-Crau, France",
+        "name": "Pub2com",
+        "locationConfidence": 0.0044402904
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 92,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 436417139,
+        "longitudeE7": 47954548,
+        "placeId": "ChIJ2zEO5MULthIRpkDEIKVnyqE",
+        "address": "11 Avenue Galilée, 13310 Saint-Martin-de-Crau, France",
+        "semanticType": "TYPE_WORK",
+        "locationConfidence": 98.49733
+      },
+      "endLocation": {
+        "latitudeE7": 437879282,
+        "longitudeE7": 43913879,
+        "placeId": "ChIJb2hLNqkstBIRUAfmDyGIBxM",
+        "address": "5 Rue des Genêts, 30132 Caissargues, Gard, Languedoc-Roussillon, France",
+        "semanticType": "TYPE_HOME",
+        "locationConfidence": 94.10944
+      },
+      "duration": {
+        "startTimestamp": "2014-09-05T15:09:23.233Z",
+        "endTimestamp": "2014-09-05T15:35:53.990Z"
+      },
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 436419029,
+          "lngE7": 47955360
+        }, {
+          "latE7": 437877426,
+          "lngE7": 43915700
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 41416.53742284555,
+        "travelMode": "DRIVE",
+        "confidence": 0.9902853582435766
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 437879282,
+        "longitudeE7": 43913879,
+        "placeId": "ChIJb2hLNqkstBIRUAfmDyGIBxM",
+        "address": "5 Rue des Genêts, 30132 Caissargues, Gard, Languedoc-Roussillon, France",
+        "semanticType": "TYPE_HOME",
+        "locationConfidence": 94.10944
+      },
+      "duration": {
+        "startTimestamp": "2014-09-05T15:35:53.990Z",
+        "endTimestamp": "2014-09-05T22:22:26.354Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 437879564,
+      "centerLngE7": 43914030,
+      "visitConfidence": 87,
+      "otherCandidateLocations": [{
+        "latitudeE7": 437878011,
+        "longitudeE7": 43914602,
+        "placeId": "ChIJeQkmS6kstBIR3cJ230hM51w",
+        "address": "5 Rue des Genêts, 30132 Caissargues, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 3.3965893
+      }, {
+        "latitudeE7": 437875993,
+        "longitudeE7": 43913516,
+        "placeId": "ChIJk18WSakstBIRV13b-8R_bUw",
+        "address": "23 Rue des Genêts, 30132 Caissargues, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 1.0699819
+      }, {
+        "latitudeE7": 437878744,
+        "longitudeE7": 43915217,
+        "placeId": "ChIJlRpfS6kstBIRGjySPrLW7y0",
+        "address": "7 Rue des Genêts, 30132 Caissargues, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.97037154
+      }, {
+        "latitudeE7": 437881060,
+        "longitudeE7": 43907732,
+        "placeId": "ChIJizt0zK4stBIR6UZt-I7B6_U",
+        "address": "25 Rue de la Ciboulette, 30132 Caissargues, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.4199575
+      }, {
+        "latitudeE7": 437872806,
+        "longitudeE7": 43915255,
+        "placeId": "ChIJY31jRqkstBIRoCprP3nwJGg",
+        "name": "Magan Jean-Francois",
+        "locationConfidence": 0.0060435734
+      }, {
+        "latitudeE7": 437879143,
+        "longitudeE7": 43850407,
+        "placeId": "ChIJGeVJeaYstBIRAQyyLa3Qs74",
+        "address": "4 Rue des Vignobles, 30132 Caissargues, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.0041082087
+      }, {
+        "latitudeE7": 437699680,
+        "longitudeE7": 44267560,
+        "placeId": "ChIJVyJTSqkstBIRZPc5XX3OX4s",
+        "address": "19 Grand Rue 1er étage, 30128 Garons, France",
+        "name": "Durand Paysage",
+        "locationConfidence": 0.002656171
+      }, {
+        "latitudeE7": 438078090,
+        "longitudeE7": 43716705,
+        "placeId": "ChIJYX_ZLKkstBIRyAJkTEVfzKk",
+        "address": "2350 Rte de Saint-Gilles, 30000 Nîmes, France",
+        "name": "Porte Electricité",
+        "locationConfidence": 0.0025055772
+      }, {
+        "latitudeE7": 437894326,
+        "longitudeE7": 43909471,
+        "placeId": "ChIJUwKsaKwstBIR57ItI1a61ec",
+        "address": "6167 Chem. de Bellevue, 30132 Caissargues, France",
+        "name": "Ecole Clos Mirman",
+        "locationConfidence": 0.0021950067
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 92,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 437879282,
+        "longitudeE7": 43913879,
+        "placeId": "ChIJb2hLNqkstBIRUAfmDyGIBxM",
+        "address": "5 Rue des Genêts, 30132 Caissargues, Gard, Languedoc-Roussillon, France",
+        "semanticType": "TYPE_HOME",
+        "locationConfidence": 94.178894
+      },
+      "duration": {
+        "startTimestamp": "2014-09-06T09:09:44.014Z",
+        "endTimestamp": "2014-09-06T13:51:17.231Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 437879702,
+      "centerLngE7": 43914072,
+      "visitConfidence": 86,
+      "otherCandidateLocations": [{
+        "latitudeE7": 437878011,
+        "longitudeE7": 43914602,
+        "placeId": "ChIJeQkmS6kstBIR3cJ230hM51w",
+        "address": "5 Rue des Genêts, 30132 Caissargues, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 3.3161423
+      }, {
+        "latitudeE7": 437875993,
+        "longitudeE7": 43913516,
+        "placeId": "ChIJk18WSakstBIRV13b-8R_bUw",
+        "address": "23 Rue des Genêts, 30132 Caissargues, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 1.0840049
+      }, {
+        "latitudeE7": 437878744,
+        "longitudeE7": 43915217,
+        "placeId": "ChIJlRpfS6kstBIRGjySPrLW7y0",
+        "address": "7 Rue des Genêts, 30132 Caissargues, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.95178807
+      }, {
+        "latitudeE7": 437881060,
+        "longitudeE7": 43907732,
+        "placeId": "ChIJizt0zK4stBIR6UZt-I7B6_U",
+        "address": "25 Rue de la Ciboulette, 30132 Caissargues, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.43470004
+      }, {
+        "latitudeE7": 437872806,
+        "longitudeE7": 43915255,
+        "placeId": "ChIJY31jRqkstBIRoCprP3nwJGg",
+        "name": "Magan Jean-Francois",
+        "locationConfidence": 0.006171017
+      }, {
+        "latitudeE7": 437879143,
+        "longitudeE7": 43850407,
+        "placeId": "ChIJGeVJeaYstBIRAQyyLa3Qs74",
+        "address": "4 Rue des Vignobles, 30132 Caissargues, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.004240673
+      }, {
+        "latitudeE7": 437699680,
+        "longitudeE7": 44267560,
+        "placeId": "ChIJVyJTSqkstBIRZPc5XX3OX4s",
+        "address": "19 Grand Rue 1er étage, 30128 Garons, France",
+        "name": "Durand Paysage",
+        "locationConfidence": 0.0025944284
+      }, {
+        "latitudeE7": 438078090,
+        "longitudeE7": 43716705,
+        "placeId": "ChIJYX_ZLKkstBIRyAJkTEVfzKk",
+        "address": "2350 Rte de Saint-Gilles, 30000 Nîmes, France",
+        "name": "Porte Electricité",
+        "locationConfidence": 0.002586068
+      }, {
+        "latitudeE7": 437894326,
+        "longitudeE7": 43909471,
+        "placeId": "ChIJUwKsaKwstBIR57ItI1a61ec",
+        "address": "6167 Chem. de Bellevue, 30132 Caissargues, France",
+        "name": "Ecole Clos Mirman",
+        "locationConfidence": 0.0023238847
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 92,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 437879282,
+        "longitudeE7": 43913879,
+        "placeId": "ChIJb2hLNqkstBIRUAfmDyGIBxM",
+        "address": "5 Rue des Genêts, 30132 Caissargues, Gard, Languedoc-Roussillon, France",
+        "semanticType": "TYPE_HOME",
+        "locationConfidence": 94.178894
+      },
+      "endLocation": {
+        "latitudeE7": 438456572,
+        "longitudeE7": 43653361,
+        "placeId": "ChIJgWjaPHIttBIRbYJzWm5d9N0",
+        "address": "2 Allée Corderie, 30000 Nîmes, France",
+        "name": "Prévention Routière",
+        "locationConfidence": 68.3061
+      },
+      "duration": {
+        "startTimestamp": "2014-09-06T13:51:17.231Z",
+        "endTimestamp": "2014-09-06T14:09:38.973Z"
+      },
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 437877235,
+          "lngE7": 43915123
+        }, {
+          "latE7": 437955131,
+          "lngE7": 43830733
+        }, {
+          "latE7": 438452224,
+          "lngE7": 43649168
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 9324.152734419355,
+        "travelMode": "DRIVE",
+        "confidence": 0.9886713312126153
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 437955322,
+          "lngE7": 43831301,
+          "accuracyMeters": 40,
+          "timestamp": "2014-09-06T13:53:17.987Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 438456572,
+        "longitudeE7": 43653361,
+        "placeId": "ChIJgWjaPHIttBIRbYJzWm5d9N0",
+        "address": "2 Allée Corderie, 30000 Nîmes, France",
+        "name": "Prévention Routière",
+        "locationConfidence": 68.3061
+      },
+      "duration": {
+        "startTimestamp": "2014-09-06T14:09:38.973Z",
+        "endTimestamp": "2014-09-06T14:24:33.350Z"
+      },
+      "placeConfidence": "LOW_CONFIDENCE",
+      "centerLatE7": 438454250,
+      "centerLngE7": 43653242,
+      "visitConfidence": 77,
+      "otherCandidateLocations": [{
+        "latitudeE7": 438456886,
+        "longitudeE7": 43640101,
+        "placeId": "ChIJE09w0nMttBIRXmW5GOFuy9Y",
+        "address": "295 Av. Peladan, 30000 Nîmes, France",
+        "name": "Clinical Du Mont Duplan",
+        "locationConfidence": 27.103294
+      }, {
+        "latitudeE7": 438459524,
+        "longitudeE7": 43668199,
+        "placeId": "ChIJP8La_XEttBIRfultzHCZVQs",
+        "address": "51 Rue de la Biche, 30000 Nîmes, France",
+        "name": "School And Middle School Privés Valsainte",
+        "locationConfidence": 0.5247275
+      }, {
+        "latitudeE7": 438470578,
+        "longitudeE7": 43672482,
+        "placeId": "ChIJk--k4HEttBIREQ5Sbqc4CiA",
+        "address": "7 Rue Hoche, 30000 Nîmes, France",
+        "name": "Medico-Psychological Center for Adults",
+        "locationConfidence": 0.42989784
+      }, {
+        "latitudeE7": 438450667,
+        "longitudeE7": 43683073,
+        "placeId": "ChIJY_gglW0ttBIR7whOY5jVDdI",
+        "address": "9 Pl. Levi-Strauss, 30000 Nîmes, France",
+        "name": "Driving School G\u0027m",
+        "locationConfidence": 0.31019813
+      }, {
+        "latitudeE7": 438443493,
+        "longitudeE7": 43666100,
+        "placeId": "ChIJs9rqeXIttBIRu2QeSr_QVk0",
+        "address": "296 Chem. de Ronde du Mont Duplan, 30000 Nîmes, France",
+        "name": "Terroirs Complices",
+        "locationConfidence": 0.27109805
+      }, {
+        "latitudeE7": 438434966,
+        "longitudeE7": 43648743,
+        "placeId": "ChIJL6uDT3IttBIRbRBsyyc6oCI",
+        "address": "1 Av. Peladan, 30000 Nîmes, France",
+        "name": "Middle School Mont Duplan",
+        "locationConfidence": 0.2458264
+      }, {
+        "latitudeE7": 438459806,
+        "longitudeE7": 43658879,
+        "placeId": "ChIJl2hJHHIttBIR-w8Afe6ZL7I",
+        "address": "16 Rue Michel de Cubières, 30000 Nîmes, France",
+        "name": "mass promotion",
+        "locationConfidence": 0.234384
+      }, {
+        "latitudeE7": 438459833,
+        "longitudeE7": 43659349,
+        "placeId": "ChIJl2hJHHIttBIRGOVPvvdlIM8",
+        "address": "Résidence Domaine, 297 Av. Peladan, 30000 Nîmes, France",
+        "name": "Maurin-Vidal Agnès",
+        "locationConfidence": 0.2166659
+      }, {
+        "latitudeE7": 438458987,
+        "longitudeE7": 43629003,
+        "placeId": "ChIJqdUDXnEttBIRO8zE0jIKeYA",
+        "address": "16-18 Rue Bonfa, 30000 Nîmes, France",
+        "name": "Église St Luc",
+        "locationConfidence": 0.20427099
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 62,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 438456572,
+        "longitudeE7": 43653361,
+        "placeId": "ChIJgWjaPHIttBIRbYJzWm5d9N0",
+        "address": "2 Allée Corderie, 30000 Nîmes, France",
+        "name": "Prévention Routière",
+        "locationConfidence": 68.3061
+      },
+      "endLocation": {
+        "latitudeE7": 438426563,
+        "longitudeE7": 43675232
+      },
+      "duration": {
+        "startTimestamp": "2014-09-06T14:24:33.350Z",
+        "endTimestamp": "2014-09-06T14:41:59.695Z"
+      },
+      "distance": 1361,
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 438455581,
+          "lngE7": 43653764
+        }, {
+          "latE7": 438465461,
+          "lngE7": 43708395
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 1297.1198105041701,
+        "travelMode": "WALK",
+        "confidence": 1.0
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 438426563,
+        "longitudeE7": 43675232
+      },
+      "endLocation": {
+        "latitudeE7": 438457292,
+        "longitudeE7": 43652982
+      },
+      "duration": {
+        "startTimestamp": "2014-09-06T14:41:59.695Z",
+        "endTimestamp": "2014-09-06T14:44:03.546Z"
+      },
+      "distance": 467,
+      "confidence": "UNKNOWN_CONFIDENCE",
+      "activities": [{
+        "activityType": "UNKNOWN_ACTIVITY_TYPE",
+        "probability": 0.0
+      }],
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 438464046,
+          "lngE7": 43707505,
+          "accuracyMeters": 36,
+          "timestamp": "2014-09-06T14:43:02.374Z"
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 934.260784367477
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+      },
+      "endLocation": {
+      },
+      "duration": {
+        "startTimestamp": "2014-09-06T14:53:08.783Z",
+        "endTimestamp": "2014-09-06T15:10:51.102Z"
+      },
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 438455543,
+          "lngE7": 43653922
+        }, {
+          "latE7": 438399047,
+          "lngE7": 43727450
+        }, {
+          "latE7": 438381156,
+          "lngE7": 43753352
+        }, {
+          "latE7": 438184585,
+          "lngE7": 43920197
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 5494.3887342658645,
+        "travelMode": "DRIVE",
+        "confidence": 0.9904191665295125
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 438398438,
+          "lngE7": 43725500,
+          "accuracyMeters": 31,
+          "timestamp": "2014-09-06T15:02:07.051Z"
+        }, {
+          "latE7": 438383980,
+          "lngE7": 43750472,
+          "accuracyMeters": 24,
+          "timestamp": "2014-09-06T15:03:45.053Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 438185503,
+        "longitudeE7": 43926128,
+        "placeId": "ChIJ3_2XKdQstBIREpW8Ys04wrI",
+        "address": "1755 Avenue Pierre Mendès France, 30000 Nîmes, France",
+        "name": "Carrefour",
+        "locationConfidence": 97.13887
+      },
+      "duration": {
+        "startTimestamp": "2014-09-06T15:10:51.102Z",
+        "endTimestamp": "2014-09-06T16:08:50.461Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 438184702,
+      "centerLngE7": 43919711,
+      "visitConfidence": 79,
+      "otherCandidateLocations": [{
+        "latitudeE7": 438185766,
+        "longitudeE7": 43921098,
+        "placeId": "ChIJF77kF9gstBIROYVq-lHFI7o",
+        "address": "Centre commercial NIMES SUD, Av. Pierre Mendès France, 30000 Nîmes, France",
+        "name": "Micromania",
+        "locationConfidence": 1.7342215
+      }, {
+        "latitudeE7": 438188926,
+        "longitudeE7": 43924387,
+        "placeId": "ChIJF77kF9gstBIRNJD4I43lQr4",
+        "address": "1755 Av. Pierre Mendès France, 30000 Nîmes, France",
+        "name": "Crédit Municipal",
+        "locationConfidence": 0.675523
+      }, {
+        "latitudeE7": 438186090,
+        "longitudeE7": 43920870,
+        "placeId": "ChIJJbYihNYstBIR_jPaV9XmPLs",
+        "locationConfidence": 0.3565027
+      }, {
+        "latitudeE7": 438186927,
+        "longitudeE7": 43926639,
+        "placeId": "ChIJF77kF9gstBIRbge7jvQGjHI",
+        "address": "Centre Commercial Nimes Sud, 1755 Av. Pierre Mendès France, 30000 Nîmes, France",
+        "name": "Histoire d\u0027Or",
+        "locationConfidence": 0.08573039
+      }, {
+        "latitudeE7": 438197615,
+        "longitudeE7": 43885265,
+        "placeId": "ChIJOb_I4tYstBIRT2FGOtSigLQ",
+        "address": "1391 Av. Pierre Mendès France, 30000 Nîmes, France",
+        "name": "Bancam",
+        "locationConfidence": 0.004991636
+      }, {
+        "latitudeE7": 438164159,
+        "longitudeE7": 43933841,
+        "placeId": "ChIJB2qzpNYstBIRNtj7Fh2edVE",
+        "address": "Centre Commercial Carrefour Nîmes Sud, 1755 Av. Pierre Mendès France, 30000 Nîmes, France",
+        "name": "Shanghai Fast Food",
+        "locationConfidence": 0.0016728883
+      }, {
+        "latitudeE7": 438168558,
+        "longitudeE7": 43926347,
+        "placeId": "ChIJcTPyAdQstBIRWbgvb-PumSI",
+        "locationConfidence": 9.80454E-4
+      }, {
+        "latitudeE7": 438182036,
+        "longitudeE7": 43927796,
+        "placeId": "ChIJB2qzpNYstBIRs3V7sUqaP6U",
+        "address": "1755 Av. Pierre Mendès France, 30000 Nîmes, France",
+        "name": "Jean Vallon",
+        "locationConfidence": 4.908675E-4
+      }, {
+        "latitudeE7": 438170087,
+        "longitudeE7": 43944017,
+        "placeId": "ChIJB2qzpNYstBIREF7fHxcuEYY",
+        "address": "1755 Av. Pierre Mendès France, 30000 Nîmes, France",
+        "name": "Catrol",
+        "locationConfidence": 2.7227323E-4
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 86,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 438185503,
+        "longitudeE7": 43926128,
+        "placeId": "ChIJ3_2XKdQstBIREpW8Ys04wrI",
+        "address": "1755 Avenue Pierre Mendès France, 30000 Nîmes, France",
+        "name": "Carrefour",
+        "locationConfidence": 97.13887
+      },
+      "endLocation": {
+        "latitudeE7": 437879282,
+        "longitudeE7": 43913879,
+        "placeId": "ChIJb2hLNqkstBIRUAfmDyGIBxM",
+        "address": "5 Rue des Genêts, 30132 Caissargues, Gard, Languedoc-Roussillon, France",
+        "semanticType": "TYPE_HOME",
+        "locationConfidence": 94.18955
+      },
+      "duration": {
+        "startTimestamp": "2014-09-06T16:09:18.697Z",
+        "endTimestamp": "2014-09-06T16:25:18.426Z"
+      },
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 438182678,
+          "lngE7": 43920044
+        }, {
+          "latE7": 437877235,
+          "lngE7": 43915028
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 5304.731524347735,
+        "travelMode": "DRIVE",
+        "confidence": 1.0
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 437879282,
+        "longitudeE7": 43913879,
+        "placeId": "ChIJb2hLNqkstBIRUAfmDyGIBxM",
+        "address": "5 Rue des Genêts, 30132 Caissargues, Gard, Languedoc-Roussillon, France",
+        "semanticType": "TYPE_HOME",
+        "locationConfidence": 94.18955
+      },
+      "duration": {
+        "startTimestamp": "2014-09-06T16:25:18.426Z",
+        "endTimestamp": "2014-09-07T10:15:34.614Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 437879646,
+      "centerLngE7": 43914020,
+      "visitConfidence": 64,
+      "otherCandidateLocations": [{
+        "latitudeE7": 437878011,
+        "longitudeE7": 43914602,
+        "placeId": "ChIJeQkmS6kstBIR3cJ230hM51w",
+        "address": "5 Rue des Genêts, 30132 Caissargues, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 3.3259664
+      }, {
+        "latitudeE7": 437875993,
+        "longitudeE7": 43913516,
+        "placeId": "ChIJk18WSakstBIRV13b-8R_bUw",
+        "address": "23 Rue des Genêts, 30132 Caissargues, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 1.0774488
+      }, {
+        "latitudeE7": 437878744,
+        "longitudeE7": 43915217,
+        "placeId": "ChIJlRpfS6kstBIRGjySPrLW7y0",
+        "address": "7 Rue des Genêts, 30132 Caissargues, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.9428049
+      }, {
+        "latitudeE7": 437881060,
+        "longitudeE7": 43907732,
+        "placeId": "ChIJizt0zK4stBIR6UZt-I7B6_U",
+        "address": "25 Rue de la Ciboulette, 30132 Caissargues, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.43059367
+      }, {
+        "latitudeE7": 437872806,
+        "longitudeE7": 43915255,
+        "placeId": "ChIJY31jRqkstBIRoCprP3nwJGg",
+        "name": "Magan Jean-Francois",
+        "locationConfidence": 0.0060937027
+      }, {
+        "latitudeE7": 437879143,
+        "longitudeE7": 43850407,
+        "placeId": "ChIJGeVJeaYstBIRAQyyLa3Qs74",
+        "address": "4 Rue des Vignobles, 30132 Caissargues, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.0041894745
+      }, {
+        "latitudeE7": 437699680,
+        "longitudeE7": 44267560,
+        "placeId": "ChIJVyJTSqkstBIRZPc5XX3OX4s",
+        "address": "19 Grand Rue 1er étage, 30128 Garons, France",
+        "name": "Durand Paysage",
+        "locationConfidence": 0.0026164919
+      }, {
+        "latitudeE7": 438078090,
+        "longitudeE7": 43716705,
+        "placeId": "ChIJYX_ZLKkstBIRyAJkTEVfzKk",
+        "address": "2350 Rte de Saint-Gilles, 30000 Nîmes, France",
+        "name": "Porte Electricité",
+        "locationConfidence": 0.0025541105
+      }, {
+        "latitudeE7": 437894326,
+        "longitudeE7": 43909471,
+        "placeId": "ChIJUwKsaKwstBIR57ItI1a61ec",
+        "address": "6167 Chem. de Bellevue, 30132 Caissargues, France",
+        "name": "Ecole Clos Mirman",
+        "locationConfidence": 0.0022757642
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 92,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 437879282,
+        "longitudeE7": 43913879,
+        "placeId": "ChIJb2hLNqkstBIRUAfmDyGIBxM",
+        "address": "5 Rue des Genêts, 30132 Caissargues, Gard, Languedoc-Roussillon, France",
+        "semanticType": "TYPE_HOME",
+        "locationConfidence": 94.18955
+      },
+      "endLocation": {
+        "latitudeE7": 438092960,
+        "longitudeE7": 43560171,
+        "placeId": "ChIJZ9Acn1gstBIR7GgbRuB2NU0",
+        "address": "Avenue Claude Baillet - ZAC du Mas de Vignolles, 30000 Nîmes, France",
+        "name": "Poivre Rouge",
+        "locationConfidence": 99.37049
+      },
+      "duration": {
+        "startTimestamp": "2014-09-07T10:15:34.614Z",
+        "endTimestamp": "2014-09-07T10:25:47.670Z"
+      },
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 437877235,
+          "lngE7": 43915028
+        }, {
+          "latE7": 438092346,
+          "lngE7": 43555326
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 4752.07255415941,
+        "travelMode": "DRIVE",
+        "confidence": 1.0
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 438092960,
+        "longitudeE7": 43560171,
+        "placeId": "ChIJZ9Acn1gstBIR7GgbRuB2NU0",
+        "address": "Avenue Claude Baillet - ZAC du Mas de Vignolles, 30000 Nîmes, France",
+        "name": "Poivre Rouge",
+        "locationConfidence": 99.37049
+      },
+      "duration": {
+        "startTimestamp": "2014-09-07T10:25:47.670Z",
+        "endTimestamp": "2014-09-07T12:42:34.359Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 438095203,
+      "centerLngE7": 43560870,
+      "visitConfidence": 80,
+      "otherCandidateLocations": [{
+        "latitudeE7": 438147423,
+        "longitudeE7": 43539800,
+        "placeId": "ChIJtWZSp1cstBIRaSXAv40EYKM",
+        "address": "490 Rue Yves Sigal, 30900 Nîmes, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.24390543
+      }, {
+        "latitudeE7": 438091725,
+        "longitudeE7": 43551226,
+        "placeId": "ChIJVVXl_fYstBIRZu6jZJDeSfE",
+        "address": "59 place André Bazile Zone, Chem. du Mas de Vignolles, 30000 Nîmes, France",
+        "name": "ELECTRO DEPOT NIMES",
+        "locationConfidence": 0.20039834
+      }, {
+        "latitudeE7": 438093838,
+        "longitudeE7": 43573489,
+        "placeId": "ChIJpUTI3j4stBIRK0KzEP8B5Bs",
+        "address": "63 Pl. Andre Bazile, 30900 Nîmes, France",
+        "name": "FLY NÎMES",
+        "locationConfidence": 0.11636427
+      }, {
+        "latitudeE7": 438080328,
+        "longitudeE7": 43584686,
+        "placeId": "ChIJuRguEPYstBIRKhgo-i1KqlI",
+        "address": "Zac Du Mas De Vignolles, Place Andre Bazile, 30000 Nîmes, France",
+        "name": "HOMEBOX Nîmes",
+        "locationConfidence": 0.023243444
+      }, {
+        "latitudeE7": 438094697,
+        "longitudeE7": 43561891,
+        "placeId": "ChIJn8w-t_ostBIRs5q94NwqJa8",
+        "address": "Av. Claude Baillet, 30900 Nîmes, France",
+        "name": "captain oliver",
+        "locationConfidence": 0.010632704
+      }, {
+        "latitudeE7": 438090620,
+        "longitudeE7": 43550030,
+        "placeId": "ChIJ_____88ttBIRU6Yq2aA9Cvs",
+        "address": "ZAC du Mas de Vignoles, 59 Pl. Andre Bazile, 30900 Nîmes, France",
+        "name": "Cuisine Plus",
+        "locationConfidence": 0.009525979
+      }, {
+        "latitudeE7": 438106528,
+        "longitudeE7": 43595258,
+        "placeId": "ChIJ_____78ytBIRNtKMM36PdXg",
+        "address": "zac zone commerciale géant, Chem. du Mas de Vignolles, 30000 Nîmes, France",
+        "name": "Auto Feu Vert Nimes Center",
+        "locationConfidence": 0.008884677
+      }, {
+        "latitudeE7": 438093808,
+        "longitudeE7": 43580840,
+        "placeId": "ChIJw0cuavYstBIRB8fyKCAAXxo",
+        "address": "63 Pl. Andre Bazile, 30000 Nîmes, France",
+        "name": "Societe d\u0027exploitation Rapp",
+        "locationConfidence": 0.0053602965
+      }, {
+        "latitudeE7": 438086589,
+        "longitudeE7": 43549151,
+        "placeId": "ChIJo39ExlgstBIR5UMW5bJiSsA",
+        "address": "ZC du Mas de Vignolles, 59 Pl. Andre Bazile, 30900 Nîmes, France",
+        "name": "Litrimarché",
+        "locationConfidence": 0.004896177
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 88,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 438092960,
+        "longitudeE7": 43560171,
+        "placeId": "ChIJZ9Acn1gstBIR7GgbRuB2NU0",
+        "address": "Avenue Claude Baillet - ZAC du Mas de Vignolles, 30000 Nîmes, France",
+        "name": "Poivre Rouge",
+        "locationConfidence": 99.37049
+      },
+      "endLocation": {
+        "latitudeE7": 437879282,
+        "longitudeE7": 43913879,
+        "placeId": "ChIJb2hLNqkstBIRUAfmDyGIBxM",
+        "address": "5 Rue des Genêts, 30132 Caissargues, Gard, Languedoc-Roussillon, France",
+        "semanticType": "TYPE_HOME",
+        "locationConfidence": 96.33441
+      },
+      "duration": {
+        "startTimestamp": "2014-09-07T12:42:34.359Z",
+        "endTimestamp": "2014-09-07T12:51:32.774Z"
+      },
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.0
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.0
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 438097419,
+          "lngE7": 43564910
+        }, {
+          "latE7": 437877311,
+          "lngE7": 43915367
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 4391.543900961096,
+        "travelMode": "DRIVE",
+        "confidence": 0.9999859493423515
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 437879282,
+        "longitudeE7": 43913879,
+        "placeId": "ChIJb2hLNqkstBIRUAfmDyGIBxM",
+        "address": "5 Rue des Genêts, 30132 Caissargues, Gard, Languedoc-Roussillon, France",
+        "semanticType": "TYPE_HOME",
+        "locationConfidence": 96.33441
+      },
+      "duration": {
+        "startTimestamp": "2014-09-07T12:51:32.774Z",
+        "endTimestamp": "2014-09-07T20:56:57.197Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 437879764,
+      "centerLngE7": 43914121,
+      "visitConfidence": 64,
+      "otherCandidateLocations": [{
+        "latitudeE7": 437878011,
+        "longitudeE7": 43914602,
+        "placeId": "ChIJeQkmS6kstBIR3cJ230hM51w",
+        "address": "5 Rue des Genêts, 30132 Caissargues, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 2.0120625
+      }, {
+        "latitudeE7": 437875993,
+        "longitudeE7": 43913516,
+        "placeId": "ChIJk18WSakstBIRV13b-8R_bUw",
+        "address": "23 Rue des Genêts, 30132 Caissargues, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.70248157
+      }, {
+        "latitudeE7": 437878744,
+        "longitudeE7": 43915217,
+        "placeId": "ChIJlRpfS6kstBIRGjySPrLW7y0",
+        "address": "7 Rue des Genêts, 30132 Caissargues, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.63018453
+      }, {
+        "latitudeE7": 437881060,
+        "longitudeE7": 43907732,
+        "placeId": "ChIJizt0zK4stBIR6UZt-I7B6_U",
+        "address": "25 Rue de la Ciboulette, 30132 Caissargues, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.28065172
+      }, {
+        "latitudeE7": 437872806,
+        "longitudeE7": 43915255,
+        "placeId": "ChIJY31jRqkstBIRoCprP3nwJGg",
+        "name": "Magan Jean-Francois",
+        "locationConfidence": 0.007010221
+      }, {
+        "latitudeE7": 437901266,
+        "longitudeE7": 43879419,
+        "placeId": "ChIJPxhqN6kstBIRknOaErRE_4E",
+        "address": "Av. Folco de Baroncelli, 30132 Caissargues, France",
+        "name": "Lacroix Dominique",
+        "locationConfidence": 0.0034273353
+      }, {
+        "latitudeE7": 438078090,
+        "longitudeE7": 43716705,
+        "placeId": "ChIJYX_ZLKkstBIRyAJkTEVfzKk",
+        "address": "2350 Rte de Saint-Gilles, 30000 Nîmes, France",
+        "name": "Porte Electricité",
+        "locationConfidence": 0.0029240584
+      }, {
+        "latitudeE7": 437879143,
+        "longitudeE7": 43850407,
+        "placeId": "ChIJGeVJeaYstBIRAQyyLa3Qs74",
+        "address": "4 Rue des Vignobles, 30132 Caissargues, France",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.0028660013
+      }, {
+        "latitudeE7": 437894326,
+        "longitudeE7": 43909471,
+        "placeId": "ChIJUwKsaKwstBIR57ItI1a61ec",
+        "address": "6167 Chem. de Bellevue, 30132 Caissargues, France",
+        "name": "Ecole Clos Mirman",
+        "locationConfidence": 0.002741999
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 92,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }]
+}
