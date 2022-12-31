@@ -204,7 +204,7 @@ MaxDays = 31 # Nombre de jours max par mois
 
 
 #%%%  Extraction des .json d'une année dans des dictionnaires (dict)
-Year = 2022
+Year = 2014
 data, dataExist = ExtractDataJson(Year)  
  
 
