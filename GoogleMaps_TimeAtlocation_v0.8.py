@@ -258,17 +258,6 @@ for Month in range(0, 13): # traitement du dict data du mois (i=month)
                 
                 AddresOK, GeoPosOK = TargetLocationOK(Address, TargetAdress, Distance, radius)
                 # print('TargetLocationOK' , AddresOK, GeoPosOK )
-
-                # if FlagFirstDayCycle==0 :
-                #     # print('FlagFirstDayCycle INIT')
-                #     # OldDay = DayNumber
-                #     # TotalHoursPerDay = ElapsedTime
-                #     # FlagFirstDayCycle = 1
-                #     pass
-                
-                # if FlagPrevElapsedTime==0 : # Load previous PrevElapsedTime
-                #     TotalHoursPerDay = PrevElapsedTime
-                #     FlagPrevElapsedTime = 1
                 
                 if (AddresOK)or(GeoPosOK) : # Adresse ou position géographique ok
                     # print('-TargetLocOK',  'Address' , Address , 'DayNumber=',DayNumber , 'FlagFirstDayCycle=' , FlagFirstDayCycle , 'ElapsedTime' , ElapsedTime)  
@@ -308,14 +297,3 @@ for Month in range(0, 13): # traitement du dict data du mois (i=month)
  
             pass   
     
-        # for x in arrayTotalHoursPerDay:
-        #     print(Year, Month, x)
-        #     pass     
-
-        
-
-        # print('TotalHoursPerMonth', TotalHoursPerMonth)        
-
-            
-            # print(data[i]['timelineObjects'][1]['placeVisit'])   
-        
