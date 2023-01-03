@@ -164,19 +164,33 @@ def Dist2Geopoints(target_lat, target_lng, lat, lng):
 #     print("La position est à l'extérieur du rayon")
 
 #%%% def TargetLocationOK
-def TargetLocationOK(Address, TargetAdress, Distance, radius):
+def TargetLocationOK(Address, TargetAdress, SecondTargetAdress, Distance, SecondDistance, radius, EnableSecondTarget):
     
     # print('TargetLocationOK', Address,TargetAdress)
     # print('Address.find', Address.find(TargetAdress)) # Ok si >= à 0 ... ou -1 non trouvé
-    if ((Address.find(TargetAdress)>=0)or(TargetAdress=='nofilter')) :
-        AddresOK = 1
-    else :
-        AddresOK = 0
-        
-    if (Distance<radius) :
-        GeoPosOK = 1
-    else :
-        GeoPosOK = 0        
+    if (EnableSecondTarget==0) :
+         
+        if ((Address.find(TargetAdress)>=0)or(TargetAdress=='nofilter')) :
+            AddresOK = 1
+        else :
+            AddresOK = 0
+            
+        if (Distance<radius):
+            GeoPosOK = 1
+        else :
+            GeoPosOK = 0  
+            
+    else : # EnableSecondTarget==1
+          
+        if ((Address.find(TargetAdress)>=0)or(Address.find(SecondTargetAdress)>=0)or(TargetAdress=='nofilter')) :
+            AddresOK = 1
+        else :
+            AddresOK = 0 
+            
+        if (Distance<radius)or(SecondDistance<radius) :
+            GeoPosOK = 1
+        else :
+            GeoPosOK = 0        
     
     return AddresOK, GeoPosOK
 
@@ -199,26 +213,50 @@ def DatetimeToString(dt):
 data = ['']*13 # permet de stocker 12 dict pour chaque mois
 dataExist = [0]*13 # flag permenant de savoir quels mois on été extraits
 
-TargetAdressList = ['nofilter',
-                    'Parade, 30200 Orsan', # 'Parade, 30200 Orsan' permet de prendre en compte les adresses proches
-                    '705 Chem. de la Parade, 30200 Orsan, France',
-                    '29 Avenue de la Méditerranée, 30132 Caissargues, France',
-                    '5 Rue des Genêts, 30132 Caissargues, Gard, Languedoc-Roussillon, France',
-                    '11 Av. Galilée, 13310 Saint-Martin-de-Crau, France']
+TargetNumber = 1 # ◄- A renseigner en fonction de sa traget !!!
+EnableSecondTarget = 1 # True / False
+SecondTargetNumber = 4
 
-TargetAdress = TargetAdressList[1]
+TargetAdressList = ['nofilter', # 0
+                    'Parade, 30200 Orsan', # 1 'Parade, 30200 Orsan' permet de prendre en compte les adresses proches
+                    'Méditerranée, 30132 Caissargues', # 2
+                    'Genêts, 30132 Caissargues', # 3
+                    'Galilée, 13310 Saint-Martin-de-Crau', # 4
+                    '?'] #5
 
-target_lat = 44.13860983334649 # Centre la position cible CLEO = 44.13860983334649 4.657463254390843
-target_lng = 4.657463254390843
-radius = 500  # en mètre
-lat = 0 # lat = 44.1403615873381
-lng =0 # lng = 4.657216251417782
+TargetAdress = TargetAdressList[TargetNumber] 
+SecondTargetAdress = TargetAdressList[SecondTargetNumber] 
+
+Target_latList = [0, # nofilter
+                    44.13860983334649, # "Parade, 30200 Orsan" = 44.13860983334649 4.657463254390843
+                    43.78764719820701, # Méditerranée, 30132 Caissargues' = 43.78764719820701, 4.386207165386871
+                    43.787566701084096, # 43.787566701084096, 4.391149034481557
+                    43.64180566129205, # "Galilée, 13310 Saint-Martin-de-Crau" = 43.64180566129205, 4.795406268735807
+                    0]
+
+Target_lngList = [0, # nofilter
+                    4.657463254390843, # "Parade, 30200 Orsan" = 44.13860983334649 4.657463254390843
+                    4.386207165386871, # Méditerranée, 30132 Caissargues' = 43.78764719820701, 4.386207165386871
+                    4.391149034481557, # 43.787566701084096, 4.391149034481557
+                    4.795406268735807, # "Galilée, 13310 Saint-Martin-de-Crau" = 43.64180566129205, 4.795406268735807
+                    0]
+
+# Centre la position cible "Parade, 30200 Orsan" = 44.13860983334649 4.657463254390843
+# Centre la position cible "Galilée, 13310 Saint-Martin-de-Crau" = 43.64180566129205, 4.795406268735807
+Target_lat = Target_latList[TargetNumber]
+Target_lng = Target_lngList[TargetNumber]
+SecondTarget_lat = Target_latList[SecondTargetNumber]
+SecondTarget_lng = Target_lngList[SecondTargetNumber]
+# print(target_lat,target_lng)
+radius = 200  # m ◄- A renseigner en mètre en fonction du besoin
+lat = 0 # init
+lng = 0 # init
 
 MaxDays = 31+1 # Nombre de jours max par mois + 1 car la liste commence à 0
 MaxMonths = 12+1
 
 #%%%  Extraction des .json d'une année dans des dictionnaires (dict)
-Year = 2022
+Year = 2017
 data, dataExist = ExtractDataJson(Year)  
 
 #%%% CsvFileManager
@@ -234,10 +272,6 @@ CsvFileManager_1.WriteCsv("Address" + ";" + "End_time" + ";" + "Year" + ";" +
 for Month in range(0, 13): # traitement du dict data du mois (i=month)
     if (dataExist[Month]==True) :# Si dict exist alors 
         print('Month-----------------------------' , Month, '\r')
-        # print(data[i])
-        # if (True) : # Forçage focus sur Février
-        
-        # CountTimelineObjects(data,i) # fonction inutile si itération
         
         # INIT var tous les mois
         cpt_TimelineObjects = 0
@@ -261,19 +295,21 @@ for Month in range(0, 13): # traitement du dict data du mois (i=month)
         for TimelineObjects in data[Month]['timelineObjects']:  # itération sur tous le 'timelineObjects' 
             # print('cpt_TimelineObjects-----------------------------' , cpt_TimelineObjects, '\r')            
             try: # Tentative de lecture si par exemple <> de placeVisit pas de remonté d'érreur
-                # print('ReadDataLocation' ,ReadDataLocation(data,Month,cpt_TimelineObjects))
-                # print('ReadDataDuration' ,ReadDataDuration(data,Month,cpt_TimelineObjects))
+                # print('-ReadDataLocation' ,ReadDataLocation(data,Month,cpt_TimelineObjects))
+                # print('--ReadDataDuration' ,ReadDataDuration(data,Month,cpt_TimelineObjects))
                 Address,latitudeE7,longitudeE7,latitudeE7Dec,longitudeE7Dec = ReadDataLocation(data,Month,cpt_TimelineObjects)
                 Start_time,DayNumber,End_time,ElapsedTime = ReadDataDuration(data,Month,cpt_TimelineObjects)
                 # print("ElapsedTime", type(ElapsedTime), ElapsedTime) # <class 'datetime.timedelta'> 1 day, 12:29:13.170000 0:24:24.403000
                 
-                Distance = Dist2Geopoints(target_lat, target_lng, latitudeE7Dec, longitudeE7Dec)
+                Distance = Dist2Geopoints(Target_lat, Target_lng, latitudeE7Dec, longitudeE7Dec)
+                SecondDistance = Dist2Geopoints(SecondTarget_lat, SecondTarget_lng, latitudeE7Dec, longitudeE7Dec)
                 # print('Distance',Distance) 
                 
-                AddresOK, GeoPosOK = TargetLocationOK(Address, TargetAdress, Distance, radius)
-                # print('TargetLocationOK' , DayNumber, AddresOK, GeoPosOK , Address, TargetAdress )
+                AddresOK, GeoPosOK = TargetLocationOK(Address, TargetAdress, SecondTargetAdress, Distance, SecondDistance, radius, EnableSecondTarget)
+                # print('-TargetLocationOK?' , DayNumber, AddresOK, GeoPosOK , Address, TargetAdress )
                 
                 if (AddresOK)or(GeoPosOK) : # Adresse ou position géographique ok
+                    print('(AddresOK)or(GeoPosOK)' , AddresOK, GeoPosOK,'|',Address[0:20])
                     # print('-TargetLocOK',  'Address' , Address , 'DayNumber=',DayNumber , 'FlagFirstDayCycle=' , FlagFirstDayCycle , 'ElapsedTime' , ElapsedTime)  
                     # print('-TargetLocOK', 'DayNumber=',DayNumber , 'FlagFirstDayCycle=' , FlagFirstDayCycle , 'ElapsedTime' , ElapsedTime)  
  
@@ -313,7 +349,7 @@ for Month in range(0, 13): # traitement du dict data du mois (i=month)
                 csvTotalHoursPerMonth = DatetimeToString(arrayTotalHoursPerMonth[Month])                
                 csvTotalHoursPerDay = DatetimeToString(arrayTotalHoursPerDay[Day])        
                 
-                print('-WriteCsv', csvAdress[0:10], csvEnd_time, csvYear, csvMonth, csvDay, csvTotalHoursPerMonth, csvTotalHoursPerDay)
+                # print('-WriteCsv', csvAdress[0:10], csvEnd_time, csvYear, csvMonth, csvDay, csvTotalHoursPerMonth, csvTotalHoursPerDay)
 
                 try:
                     # Ecrit dans un CSV address + year + mois + jour + Start_time + ElapsedTime
